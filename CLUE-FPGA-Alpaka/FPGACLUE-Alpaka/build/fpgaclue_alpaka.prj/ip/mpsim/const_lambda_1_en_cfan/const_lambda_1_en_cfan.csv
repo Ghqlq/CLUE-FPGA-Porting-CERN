@@ -1,0 +1,18 @@
+# system info const_lambda_1_en_cfan on 2026.08.11.16:49:50
+system_info:
+name,value
+DEVICE,AGFA006R16A2E1V
+DEVICE_FAMILY,Agilex 7
+GENERATION_ID,0
+#
+#
+# Files generated for const_lambda_1_en_cfan on 2026.08.11.16:49:50
+files:
+filepath,kind,attributes,module,is_top
+sim/const_lambda_1_en_cfan.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,const_lambda_1_en_cfan,true
+avalon_conduit_fanout_10/sim/const_lambda_1_en_cfan_avalon_conduit_fanout_10_xkdeykq.sv,SYSTEM_VERILOG,,const_lambda_1_en_cfan_avalon_conduit_fanout_10_xkdeykq,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+const_lambda_1_en_cfan.const_lambda_1_en_cfan,const_lambda_1_en_cfan_avalon_conduit_fanout_10_xkdeykq

@@ -1,0 +1,11 @@
+{"nodes":[939], "links":[{"from":944, "to":945}, {"from":947, "to":948}]}
+{"name":"nd_item<1>)", "id":939, "type":"kernel", "children":[940, 944, 947]}
+{"name":"On-chip Memory", "id":940, "type":"memtype", "children":[941]}
+{"name":"Unknown ROM (address space 64)", "id":941, "details":[{"type":"table", "Requested size":"1000000 bytes", "Implemented size":"15625 kilobits", "Number of banks":"1", "Number of replicates":"2"}], "type":"romsys", "children":[942]}
+{"name":"Bank 0", "id":942, "details":[{"type":"table", "Bank width":"32 bits", "Implemented size":"15625 kilobits", "Number of replicates":"2"}], "type":"bank", "children":[943, 946]}
+{"name":"Replicate 0", "id":943, "details":[{"type":"table", "Width":"32 bits", "Depth":"250000 words", "Size":"1000000 bytes"}], "type":"replicate", "children":[945]}
+{"name":"R", "id":945, "type":"port"}
+{"name":"Replicate 1", "id":946, "details":[{"type":"table", "Width":"32 bits", "Depth":"250000 words", "Size":"1000000 bytes"}], "type":"replicate", "children":[948]}
+{"name":"R", "id":948, "type":"port"}
+{"name":"Load", "id":944, "details":[{"type":"table", "Data width":"32 bits", "Type":"ROM lookup", "Loads from":"Unknown ROM (address space 64)"}], "type":"inst"}
+{"name":"Load", "id":947, "details":[{"type":"table", "Data width":"32 bits", "Type":"ROM lookup", "Loads from":"Unknown ROM (address space 64)"}], "type":"inst"}

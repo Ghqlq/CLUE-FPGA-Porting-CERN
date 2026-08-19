@@ -1,0 +1,7 @@
+
+WORK > DEFAULT
+DEFAULT:                          ./libraries/work/                  
+work:                             ./libraries/work/                  
+hls_sim_clock_reset_10:           ./libraries/hls_sim_clock_reset_10/
+mpsim_clk_rst:                    ./libraries/mpsim_clk_rst/         
+OTHERS=_device_synopsys_sim.setup                                    

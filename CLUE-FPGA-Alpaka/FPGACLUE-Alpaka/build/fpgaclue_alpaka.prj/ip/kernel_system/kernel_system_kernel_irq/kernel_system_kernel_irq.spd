@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="altera_irq_bridge_2000/sim/kernel_system_kernel_irq_altera_irq_bridge_2000_mzhkeuq.v"
+   type="VERILOG"
+   library="altera_irq_bridge_2000" />
+ <file
+   path="sim/kernel_system_kernel_irq.v"
+   type="VERILOG"
+   library="kernel_system_kernel_irq"
+   hasInlineConfiguration="true" />
+ <topLevel name="kernel_system_kernel_irq.kernel_system_kernel_irq" />
+ <deviceFamily name="agilex7" />
+ <device name="AGFA006R16A2E1V" />
+</simPackage>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="sim/kernel_system_reset.v"
+   type="VERILOG"
+   library="kernel_system_reset"
+   hasInlineConfiguration="true" />
+ <topLevel name="kernel_system_reset.kernel_system_reset" />
+ <deviceFamily name="agilex7" />
+ <device name="AGFA006R16A2E1V" />
+</simPackage>

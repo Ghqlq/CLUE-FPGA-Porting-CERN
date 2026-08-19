@@ -1,0 +1,22 @@
+# system info mm_agent_ks_mem0_rw on 2026.08.11.16:49:53
+system_info:
+name,value
+DEVICE,AGFA006R16A2E1V
+DEVICE_FAMILY,Agilex 7
+GENERATION_ID,0
+#
+#
+# Files generated for mm_agent_ks_mem0_rw on 2026.08.11.16:49:53
+files:
+filepath,kind,attributes,module,is_top
+sim/mm_agent_ks_mem0_rw.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,mm_agent_ks_mem0_rw,true
+aoc_sim_mm_slave_dpi_bfm_10/sim/verbosity_pkg.sv,SYSTEM_VERILOG, COMMON_SYSTEMVERILOG_PACKAGE=avalon_lvip_verbosity_pkg,aoc_sim_mm_slave_dpi_bfm,false
+aoc_sim_mm_slave_dpi_bfm_10/sim/avalon_mm_pkg.sv,SYSTEM_VERILOG, COMMON_SYSTEMVERILOG_PACKAGE=avalon_vip_avalon_mm_pkg,aoc_sim_mm_slave_dpi_bfm,false
+aoc_sim_mm_slave_dpi_bfm_10/sim/avalon_utilities_pkg.sv,SYSTEM_VERILOG, COMMON_SYSTEMVERILOG_PACKAGE=avalon_vip_avalon_utilities_pkg,aoc_sim_mm_slave_dpi_bfm,false
+aoc_sim_mm_slave_dpi_bfm_10/sim/altera_avalon_mm_slave_bfm.sv,SYSTEM_VERILOG,,aoc_sim_mm_slave_dpi_bfm,false
+aoc_sim_mm_slave_dpi_bfm_10/sim/aoc_sim_mm_slave_dpi_bfm.sv,SYSTEM_VERILOG,,aoc_sim_mm_slave_dpi_bfm,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+mm_agent_ks_mem0_rw.mm_agent_ks_mem0_rw,aoc_sim_mm_slave_dpi_bfm

@@ -1,0 +1,22 @@
+# system info mpsim_avmm_agent_cra_inst on 2026.08.11.16:49:50
+system_info:
+name,value
+DEVICE,AGFA006R16A2E1V
+DEVICE_FAMILY,Agilex 7
+GENERATION_ID,0
+#
+#
+# Files generated for mpsim_avmm_agent_cra_inst on 2026.08.11.16:49:50
+files:
+filepath,kind,attributes,module,is_top
+sim/mpsim_avmm_agent_cra_inst.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,mpsim_avmm_agent_cra_inst,true
+aoc_sim_mm_master_dpi_bfm_10/sim/verbosity_pkg.sv,SYSTEM_VERILOG, COMMON_SYSTEMVERILOG_PACKAGE=avalon_lvip_verbosity_pkg,aoc_sim_mm_master_dpi_bfm,false
+aoc_sim_mm_master_dpi_bfm_10/sim/avalon_mm_pkg.sv,SYSTEM_VERILOG, COMMON_SYSTEMVERILOG_PACKAGE=avalon_vip_avalon_mm_pkg,aoc_sim_mm_master_dpi_bfm,false
+aoc_sim_mm_master_dpi_bfm_10/sim/avalon_utilities_pkg.sv,SYSTEM_VERILOG, COMMON_SYSTEMVERILOG_PACKAGE=avalon_vip_avalon_utilities_pkg,aoc_sim_mm_master_dpi_bfm,false
+aoc_sim_mm_master_dpi_bfm_10/sim/altera_avalon_mm_master_bfm.sv,SYSTEM_VERILOG,,aoc_sim_mm_master_dpi_bfm,false
+aoc_sim_mm_master_dpi_bfm_10/sim/aoc_sim_mm_master_dpi_bfm.sv,SYSTEM_VERILOG,,aoc_sim_mm_master_dpi_bfm,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+mpsim_avmm_agent_cra_inst.avmm_agent_cra_inst,aoc_sim_mm_master_dpi_bfm

@@ -1,0 +1,5 @@
+
+DEFINE                     work                     ./../libraries/work/                    
+DEFINE                     kernel_system_kernel_irq ./../libraries/kernel_system_kernel_irq/
+INCLUDE simulator.cds.lib                                                                   
+SOFTINCLUDE device.cds.lib                                                                  

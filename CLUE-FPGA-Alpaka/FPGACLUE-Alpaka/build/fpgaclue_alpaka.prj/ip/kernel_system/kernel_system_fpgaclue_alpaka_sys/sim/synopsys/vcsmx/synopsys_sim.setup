@@ -1,0 +1,7 @@
+
+WORK > DEFAULT
+DEFAULT:                           ./libraries/work/                             
+work:                              ./libraries/work/                             
+fpgaclue_alpaka_sys_140:           ./libraries/fpgaclue_alpaka_sys_140/          
+kernel_system_fpgaclue_alpaka_sys: ./libraries/kernel_system_fpgaclue_alpaka_sys/
+OTHERS=_device_synopsys_sim.setup                                                

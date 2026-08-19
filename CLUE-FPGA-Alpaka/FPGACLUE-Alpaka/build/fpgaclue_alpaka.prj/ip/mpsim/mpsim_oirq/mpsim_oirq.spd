@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="aoc_sim_main_dpi_controller_10/sim/aoc_sim_main_dpi_controller.sv"
+   type="SYSTEM_VERILOG"
+   library="aoc_sim_main_dpi_controller_10" />
+ <file
+   path="sim/mpsim_oirq.v"
+   type="VERILOG"
+   library="mpsim_oirq"
+   hasInlineConfiguration="true" />
+ <topLevel name="mpsim_oirq.mpsim_oirq" />
+ <deviceFamily name="agilex7" />
+ <device name="AGFA006R16A2E1V" />
+</simPackage>

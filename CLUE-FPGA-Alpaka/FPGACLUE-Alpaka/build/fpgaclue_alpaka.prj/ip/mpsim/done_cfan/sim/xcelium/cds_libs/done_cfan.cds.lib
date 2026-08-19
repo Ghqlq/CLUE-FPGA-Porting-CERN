@@ -1,0 +1,5 @@
+
+DEFINE                     work      ./../libraries/work/     
+DEFINE                     done_cfan ./../libraries/done_cfan/
+INCLUDE simulator.cds.lib                                     
+SOFTINCLUDE device.cds.lib                                    

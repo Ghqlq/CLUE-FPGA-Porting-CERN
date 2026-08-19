@@ -1,0 +1,5 @@
+
+DEFINE                     work         ./../libraries/work/        
+DEFINE                     sw_reset_100 ./../libraries/sw_reset_100/
+INCLUDE simulator.cds.lib                                           
+SOFTINCLUDE device.cds.lib                                          

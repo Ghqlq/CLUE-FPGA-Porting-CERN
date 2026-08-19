@@ -1,0 +1,7 @@
+
+WORK > DEFAULT
+DEFAULT:                                  ./libraries/work/                                    
+work:                                     ./libraries/work/                                    
+avalon_concatenate_singlebit_conduits_10: ./libraries/avalon_concatenate_singlebit_conduits_10/
+cct_comp_stall:                           ./libraries/cct_comp_stall/                          
+OTHERS=_device_synopsys_sim.setup                                                              

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="avalon_conduit_fanout_10/sim/done_cfan_avalon_conduit_fanout_10_belyc6q.sv"
+   type="SYSTEM_VERILOG"
+   library="avalon_conduit_fanout_10" />
+ <file
+   path="sim/done_cfan.v"
+   type="VERILOG"
+   library="done_cfan"
+   hasInlineConfiguration="true" />
+ <topLevel name="done_cfan.done_cfan" />
+ <deviceFamily name="agilex7" />
+ <device name="AGFA006R16A2E1V" />
+</simPackage>

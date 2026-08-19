@@ -1,0 +1,5 @@
+
+DEFINE                     work                        ./../libraries/work/                       
+DEFINE                     altera_mm_interconnect_1920 ./../libraries/altera_mm_interconnect_1920/
+INCLUDE simulator.cds.lib                                                                         
+SOFTINCLUDE device.cds.lib                                                                        

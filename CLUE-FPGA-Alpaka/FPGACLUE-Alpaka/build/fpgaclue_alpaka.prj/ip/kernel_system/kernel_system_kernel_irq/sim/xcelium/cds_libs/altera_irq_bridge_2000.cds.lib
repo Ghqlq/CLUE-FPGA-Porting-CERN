@@ -1,0 +1,5 @@
+
+DEFINE                     work                   ./../libraries/work/                  
+DEFINE                     altera_irq_bridge_2000 ./../libraries/altera_irq_bridge_2000/
+INCLUDE simulator.cds.lib                                                               
+SOFTINCLUDE device.cds.lib                                                              

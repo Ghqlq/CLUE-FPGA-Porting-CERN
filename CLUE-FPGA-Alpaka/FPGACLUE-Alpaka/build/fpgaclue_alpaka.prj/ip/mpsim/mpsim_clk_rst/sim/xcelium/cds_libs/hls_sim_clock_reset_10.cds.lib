@@ -1,0 +1,5 @@
+
+DEFINE                     work                   ./../libraries/work/                  
+DEFINE                     hls_sim_clock_reset_10 ./../libraries/hls_sim_clock_reset_10/
+INCLUDE simulator.cds.lib                                                               
+SOFTINCLUDE device.cds.lib                                                              

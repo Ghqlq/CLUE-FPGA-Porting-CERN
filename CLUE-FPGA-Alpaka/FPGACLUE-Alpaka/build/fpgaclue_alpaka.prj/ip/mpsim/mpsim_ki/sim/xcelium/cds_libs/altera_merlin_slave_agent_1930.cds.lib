@@ -1,0 +1,5 @@
+
+DEFINE                     work                           ./../libraries/work/                          
+DEFINE                     altera_merlin_slave_agent_1930 ./../libraries/altera_merlin_slave_agent_1930/
+INCLUDE simulator.cds.lib                                                                               
+SOFTINCLUDE device.cds.lib                                                                              

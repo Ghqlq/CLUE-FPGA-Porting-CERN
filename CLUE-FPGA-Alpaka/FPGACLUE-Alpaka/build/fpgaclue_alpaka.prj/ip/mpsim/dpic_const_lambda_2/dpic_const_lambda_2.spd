@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="aoc_sim_component_dpi_controller_10/sim/aoc_sim_stream_sink_dpi_bfm.sv"
+   type="SYSTEM_VERILOG"
+   library="aoc_sim_component_dpi_controller_10" />
+ <file
+   path="aoc_sim_component_dpi_controller_10/sim/aoc_sim_stream_source_dpi_bfm.sv"
+   type="SYSTEM_VERILOG"
+   library="aoc_sim_component_dpi_controller_10" />
+ <file
+   path="aoc_sim_component_dpi_controller_10/sim/aoc_sim_component_dpi_controller.sv"
+   type="SYSTEM_VERILOG"
+   library="aoc_sim_component_dpi_controller_10" />
+ <file
+   path="sim/dpic_const_lambda_2.v"
+   type="VERILOG"
+   library="dpic_const_lambda_2"
+   hasInlineConfiguration="true" />
+ <topLevel name="dpic_const_lambda_2.dpic_const_lambda_2" />
+ <deviceFamily name="agilex7" />
+ <device name="AGFA006R16A2E1V" />
+</simPackage>

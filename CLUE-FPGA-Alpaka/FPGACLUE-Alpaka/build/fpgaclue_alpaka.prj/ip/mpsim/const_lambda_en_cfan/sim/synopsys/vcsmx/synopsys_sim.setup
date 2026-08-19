@@ -1,0 +1,7 @@
+
+WORK > DEFAULT
+DEFAULT:                          ./libraries/work/                    
+work:                             ./libraries/work/                    
+avalon_conduit_fanout_10:         ./libraries/avalon_conduit_fanout_10/
+const_lambda_en_cfan:             ./libraries/const_lambda_en_cfan/    
+OTHERS=_device_synopsys_sim.setup                                      

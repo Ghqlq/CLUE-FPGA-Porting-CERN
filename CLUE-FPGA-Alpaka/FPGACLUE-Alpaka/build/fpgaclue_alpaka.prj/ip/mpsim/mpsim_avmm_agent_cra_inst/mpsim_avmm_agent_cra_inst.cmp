@@ -1,0 +1,61 @@
+	component mpsim_avmm_agent_cra_inst is
+		generic (
+			KI_AV_ADDRESS_W             : integer := 14;
+			KI_AV_SYMBOL_W              : integer := 8;
+			KI_AV_NUMSYMBOLS            : integer := 4;
+			KI_USE_WAIT_REQUEST         : integer := 0;
+			MBD_AV_ADDRESS_W            : integer := 31;
+			MBD_AV_SYMBOL_W             : integer := 8;
+			MBD_AV_NUMSYMBOLS           : integer := 4;
+			MBD_AV_BURSTSIZE            : integer := 16;
+			MBD_USE_WAIT_REQUEST        : integer := 1;
+			MBD_USE_BURST_COUNT         : integer := 1;
+			USE_READ                    : integer := 1;
+			USE_WRITE                   : integer := 1;
+			USE_ADDRESS                 : integer := 1;
+			USE_BYTE_ENABLE             : integer := 1;
+			USE_READ_DATA               : integer := 1;
+			USE_READ_DATA_VALID         : integer := 1;
+			USE_WRITE_DATA              : integer := 1;
+			AV_FIX_READ_LATENCY         : integer := 0;
+			AV_READ_WAIT_TIME           : integer := 0;
+			AV_WRITE_WAIT_TIME          : integer := 0;
+			REGISTER_WAITREQUEST        : integer := 0;
+			AV_REGISTERINCOMINGSIGNALS  : integer := 0;
+			COMMAND_WAIT_CYCLES         : integer := 200;
+			COMMAND_INITIAL_WAIT_CYCLES : integer := 1000;
+			COMMAND_READ_WRITE_CYCLES   : integer := 4;
+			COMPONENT_NAME              : string  := "kernel_cra";
+			IS_MAIN_CONTROLLER          : integer := 1;
+			NUM_COMPONENTS_WITH_CSR     : integer := 5
+		);
+		port (
+			clock                           : in  std_logic                     := 'X';             -- clk
+			reset_n                         : in  std_logic                     := 'X';             -- reset_n
+			ki_avm_writedata                : out std_logic_vector(31 downto 0);                    -- writedata
+			ki_avm_burstcount               : out std_logic_vector(0 downto 0);                     -- burstcount
+			ki_avm_readdata                 : in  std_logic_vector(31 downto 0) := (others => 'X'); -- readdata
+			ki_avm_address                  : out std_logic_vector(13 downto 0);                    -- address
+			ki_avm_waitrequest              : in  std_logic                     := 'X';             -- waitrequest
+			ki_avm_write                    : out std_logic;                                        -- write
+			ki_avm_read                     : out std_logic;                                        -- read
+			ki_avm_byteenable               : out std_logic_vector(3 downto 0);                     -- byteenable
+			ki_avm_readdatavalid            : in  std_logic                     := 'X';             -- readdatavalid
+			mbd_avm_writedata               : out std_logic_vector(31 downto 0);                    -- writedata
+			mbd_avm_burstcount              : out std_logic_vector(4 downto 0);                     -- burstcount
+			mbd_avm_readdata                : in  std_logic_vector(31 downto 0) := (others => 'X'); -- readdata
+			mbd_avm_address                 : out std_logic_vector(30 downto 0);                    -- address
+			mbd_avm_waitrequest             : in  std_logic                     := 'X';             -- waitrequest
+			mbd_avm_write                   : out std_logic;                                        -- write
+			mbd_avm_read                    : out std_logic;                                        -- read
+			mbd_avm_byteenable              : out std_logic_vector(3 downto 0);                     -- byteenable
+			mbd_avm_readdatavalid           : in  std_logic                     := 'X';             -- readdatavalid
+			enable                          : in  std_logic_vector(4 downto 0)  := (others => 'X'); -- conduit
+			sim_done                        : out std_logic;                                        -- conduit
+			agent_busy_out                  : out std_logic_vector(4 downto 0);                     -- conduit
+			done_writes_to_cra              : out std_logic_vector(4 downto 0);                     -- conduit
+			component_control_not_ready_in  : in  std_logic_vector(4 downto 0)  := (others => 'X'); -- conduit
+			component_control_not_ready_out : out std_logic                                         -- conduit
+		);
+	end component mpsim_avmm_agent_cra_inst;
+

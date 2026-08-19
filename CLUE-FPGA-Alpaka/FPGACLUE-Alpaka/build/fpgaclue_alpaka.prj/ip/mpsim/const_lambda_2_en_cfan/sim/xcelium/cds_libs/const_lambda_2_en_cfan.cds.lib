@@ -1,0 +1,5 @@
+
+DEFINE                     work                   ./../libraries/work/                  
+DEFINE                     const_lambda_2_en_cfan ./../libraries/const_lambda_2_en_cfan/
+INCLUDE simulator.cds.lib                                                               
+SOFTINCLUDE device.cds.lib                                                              

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="avalon_split_multibit_conduit_10/sim/sp_csr_ready_avalon_split_multibit_conduit_10_4rgcwhq.sv"
+   type="SYSTEM_VERILOG"
+   library="avalon_split_multibit_conduit_10" />
+ <file
+   path="sim/sp_csr_ready.v"
+   type="VERILOG"
+   library="sp_csr_ready"
+   hasInlineConfiguration="true" />
+ <topLevel name="sp_csr_ready.sp_csr_ready" />
+ <deviceFamily name="agilex7" />
+ <device name="AGFA006R16A2E1V" />
+</simPackage>

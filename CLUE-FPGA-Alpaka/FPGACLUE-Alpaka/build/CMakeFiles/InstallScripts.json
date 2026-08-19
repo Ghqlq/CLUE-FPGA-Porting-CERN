@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/cmake_install.cmake",
+		"/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/alpaka/cmake_install.cmake",
+		"/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/alpaka/thirdParty/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

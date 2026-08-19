@@ -1,0 +1,7 @@
+
+WORK > DEFAULT
+DEFAULT:                          ./libraries/work/                    
+work:                             ./libraries/work/                    
+altera_irq_bridge_2000:           ./libraries/altera_irq_bridge_2000/  
+kernel_system_kernel_irq:         ./libraries/kernel_system_kernel_irq/
+OTHERS=_device_synopsys_sim.setup                                      

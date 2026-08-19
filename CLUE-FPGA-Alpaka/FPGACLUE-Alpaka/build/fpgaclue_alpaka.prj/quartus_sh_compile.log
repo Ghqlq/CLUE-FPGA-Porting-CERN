@@ -1,0 +1,8 @@
+2026.08.11.16:49:56 Info: Doing: qsys-script --script=fpgaclue_alpaka_di.tcl --quartus-project=none
+2026.08.11.16:50:01 Info: create_system fpgaclue_alpaka_di
+2026.08.11.16:50:01 Info: set_project_property HIDE_FROM_IP_CATALOG false
+2026.08.11.16:50:01 Info: set_project_property DEVICE_FAMILY Agilex7
+2026.08.11.16:50:01 Info: set_project_property DEVICE AGFB014R24A2E2V
+2026.08.11.16:50:01 Info: add_instance fpgaclue_alpaka_di_inst fpgaclue_alpaka_di
+2026.08.11.16:50:01 Info: set_instance_property fpgaclue_alpaka_di_inst AUTO_EXPORT true
+2026.08.11.16:50:01 Info: save_system top_fpgaclue_alpaka_di.ip

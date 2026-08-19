@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="avalon_conduit_fanout_10/sim/const_lambda_2_en_cfan_avalon_conduit_fanout_10_xkdeykq.sv"
+   type="SYSTEM_VERILOG"
+   library="avalon_conduit_fanout_10" />
+ <file
+   path="sim/const_lambda_2_en_cfan.v"
+   type="VERILOG"
+   library="const_lambda_2_en_cfan"
+   hasInlineConfiguration="true" />
+ <topLevel name="const_lambda_2_en_cfan.const_lambda_2_en_cfan" />
+ <deviceFamily name="agilex7" />
+ <device name="AGFA006R16A2E1V" />
+</simPackage>

@@ -1,0 +1,5 @@
+
+DEFINE                     work                      ./../libraries/work/                     
+DEFINE                     altera_merlin_router_1921 ./../libraries/altera_merlin_router_1921/
+INCLUDE simulator.cds.lib                                                                     
+SOFTINCLUDE device.cds.lib                                                                    

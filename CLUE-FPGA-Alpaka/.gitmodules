@@ -1,0 +1,3 @@
+[submodule "clue"]
+	path = clue
+	url = https://gitlab.cern.ch/kalos/clue.git

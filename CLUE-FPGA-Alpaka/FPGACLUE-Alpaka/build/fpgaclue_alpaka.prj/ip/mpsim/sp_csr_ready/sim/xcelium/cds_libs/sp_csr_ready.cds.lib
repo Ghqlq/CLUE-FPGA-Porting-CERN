@@ -1,0 +1,5 @@
+
+DEFINE                     work         ./../libraries/work/        
+DEFINE                     sp_csr_ready ./../libraries/sp_csr_ready/
+INCLUDE simulator.cds.lib                                           
+SOFTINCLUDE device.cds.lib                                          

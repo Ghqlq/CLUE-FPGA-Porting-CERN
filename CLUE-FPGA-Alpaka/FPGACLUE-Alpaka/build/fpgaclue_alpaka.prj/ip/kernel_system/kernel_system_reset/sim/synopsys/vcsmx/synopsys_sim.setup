@@ -1,0 +1,6 @@
+
+WORK > DEFAULT
+DEFAULT:                          ./libraries/work/               
+work:                             ./libraries/work/               
+kernel_system_reset:              ./libraries/kernel_system_reset/
+OTHERS=_device_synopsys_sim.setup                                 

@@ -1,0 +1,5 @@
+
+DEFINE                     work          ./../libraries/work/         
+DEFINE                     mpsim_clk_rst ./../libraries/mpsim_clk_rst/
+INCLUDE simulator.cds.lib                                             
+SOFTINCLUDE device.cds.lib                                            

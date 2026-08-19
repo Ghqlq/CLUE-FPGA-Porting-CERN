@@ -1,0 +1,7 @@
+
+WORK > DEFAULT
+DEFAULT:                          ./libraries/work/                          
+work:                             ./libraries/work/                          
+aoc_sim_main_dpi_controller_10:   ./libraries/aoc_sim_main_dpi_controller_10/
+mpsim_oirq:                       ./libraries/mpsim_oirq/                    
+OTHERS=_device_synopsys_sim.setup                                            

@@ -1,0 +1,6 @@
+
+WORK > DEFAULT
+DEFAULT:                          ./libraries/work/                
+work:                             ./libraries/work/                
+kernel_system_clk_1x:             ./libraries/kernel_system_clk_1x/
+OTHERS=_device_synopsys_sim.setup                                  

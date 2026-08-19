@@ -1,0 +1,5 @@
+
+DEFINE                     work                ./../libraries/work/               
+DEFINE                     dpic_const_lambda_2 ./../libraries/dpic_const_lambda_2/
+INCLUDE simulator.cds.lib                                                         
+SOFTINCLUDE device.cds.lib                                                        

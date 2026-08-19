@@ -1,0 +1,3212 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/"
+      - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/"
+      - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/"
+      - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake/"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/"
+      - "/opt/Quartus/quartus/bin/"
+      - "/opt/Quartus/qsys/bin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/"
+      - "/home/fpgausers/gbuarish/.local/bin/"
+      - "/home/fpgausers/gbuarish/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/bin/"
+    searched_directories:
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/bin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/sbin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/uname"
+      - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/bin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/sbin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/uname"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/bin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/sbin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/uname"
+      - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/bin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/sbin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/uname"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/bin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/sbin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/uname"
+      - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake/bin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake/sbin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake/uname"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/bin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/sbin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/uname"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/sbin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/uname"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/uname"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/uname"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/uname"
+      - "/opt/Quartus/quartus/bin/uname"
+      - "/opt/Quartus/qsys/bin/uname"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/uname"
+      - "/home/fpgausers/gbuarish/.local/bin/uname"
+      - "/home/fpgausers/gbuarish/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 5.14.0-503.40.1.el9_5.x86_64 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/"
+      - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/"
+      - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/"
+      - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake/"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/"
+      - "/opt/Quartus/quartus/bin/"
+      - "/opt/Quartus/qsys/bin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/"
+      - "/home/fpgausers/gbuarish/.local/bin/"
+      - "/home/fpgausers/gbuarish/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/bin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/sbin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/bin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/sbin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/bin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/sbin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/bin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/sbin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/bin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/sbin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake/bin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake/sbin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/bin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/sbin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/sbin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/gmake"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/gmake"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/gmake"
+      - "/opt/Quartus/quartus/bin/gmake"
+      - "/opt/Quartus/qsys/bin/gmake"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/gmake"
+      - "/home/fpgausers/gbuarish/.local/bin/gmake"
+      - "/home/fpgausers/gbuarish/bin/gmake"
+      - "/usr/local/bin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "icpx"
+    candidate_directories:
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/"
+      - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/"
+      - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/"
+      - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake/"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/sbin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/"
+      - "/opt/Quartus/quartus/bin/"
+      - "/opt/Quartus/qsys/bin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/"
+      - "/home/fpgausers/gbuarish/.local/bin/"
+      - "/home/fpgausers/gbuarish/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/bin/icpx"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/sbin/icpx"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/icpx"
+      - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/bin/icpx"
+      - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/sbin/icpx"
+      - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/icpx"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/bin/icpx"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/sbin/icpx"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/icpx"
+      - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/bin/icpx"
+      - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/sbin/icpx"
+      - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/icpx"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/bin/icpx"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/sbin/icpx"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/icpx"
+      - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake/bin/icpx"
+      - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake/sbin/icpx"
+      - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake/icpx"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/bin/icpx"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/sbin/icpx"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/icpx"
+    found: "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/icpx"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/"
+    found: "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/icpx 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is IntelLLVM, found in:
+        /home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/4.4.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar"
+      - "ar"
+    candidate_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/"
+      - "/opt/Quartus/quartus/bin/"
+      - "/opt/Quartus/qsys/bin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/"
+      - "/home/fpgausers/gbuarish/.local/bin/"
+      - "/home/fpgausers/gbuarish/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/llvm-ar"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/llvm-ar"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/llvm-ar"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/llvm-ar"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/llvm-ar"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/llvm-ar"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/llvm-ar"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/llvm-ar"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/llvm-ar"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/llvm-ar"
+      - "/opt/Quartus/quartus/bin/llvm-ar"
+      - "/opt/Quartus/qsys/bin/llvm-ar"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/llvm-ar"
+      - "/home/fpgausers/gbuarish/.local/bin/llvm-ar"
+      - "/home/fpgausers/gbuarish/bin/llvm-ar"
+      - "/usr/local/bin/llvm-ar"
+      - "/usr/bin/llvm-ar"
+      - "/usr/local/sbin/llvm-ar"
+      - "/usr/sbin/llvm-ar"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/ar"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/ar"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/ar"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/ar"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/ar"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/ar"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/ar"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/ar"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/ar"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/ar"
+      - "/opt/Quartus/quartus/bin/ar"
+      - "/opt/Quartus/qsys/bin/ar"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/ar"
+      - "/home/fpgausers/gbuarish/.local/bin/ar"
+      - "/home/fpgausers/gbuarish/bin/ar"
+      - "/usr/local/bin/ar"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/"
+      - "/opt/Quartus/quartus/bin/"
+      - "/opt/Quartus/qsys/bin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/"
+      - "/home/fpgausers/gbuarish/.local/bin/"
+      - "/home/fpgausers/gbuarish/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/llvm-ranlib"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/llvm-ranlib"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/llvm-ranlib"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/llvm-ranlib"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/llvm-ranlib"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/llvm-ranlib"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/llvm-ranlib"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/llvm-ranlib"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/llvm-ranlib"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/llvm-ranlib"
+      - "/opt/Quartus/quartus/bin/llvm-ranlib"
+      - "/opt/Quartus/qsys/bin/llvm-ranlib"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/llvm-ranlib"
+      - "/home/fpgausers/gbuarish/.local/bin/llvm-ranlib"
+      - "/home/fpgausers/gbuarish/bin/llvm-ranlib"
+      - "/usr/local/bin/llvm-ranlib"
+      - "/usr/bin/llvm-ranlib"
+      - "/usr/local/sbin/llvm-ranlib"
+      - "/usr/sbin/llvm-ranlib"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/ranlib"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/ranlib"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/ranlib"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/ranlib"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/ranlib"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/ranlib"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/ranlib"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/ranlib"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/ranlib"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/ranlib"
+      - "/opt/Quartus/quartus/bin/ranlib"
+      - "/opt/Quartus/qsys/bin/ranlib"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/ranlib"
+      - "/home/fpgausers/gbuarish/.local/bin/ranlib"
+      - "/home/fpgausers/gbuarish/bin/ranlib"
+      - "/usr/local/bin/ranlib"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-strip"
+      - "strip"
+    candidate_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/"
+      - "/opt/Quartus/quartus/bin/"
+      - "/opt/Quartus/qsys/bin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/"
+      - "/home/fpgausers/gbuarish/.local/bin/"
+      - "/home/fpgausers/gbuarish/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/llvm-strip"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/llvm-strip"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/llvm-strip"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/llvm-strip"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/llvm-strip"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/llvm-strip"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/llvm-strip"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/llvm-strip"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/llvm-strip"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/llvm-strip"
+      - "/opt/Quartus/quartus/bin/llvm-strip"
+      - "/opt/Quartus/qsys/bin/llvm-strip"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/llvm-strip"
+      - "/home/fpgausers/gbuarish/.local/bin/llvm-strip"
+      - "/home/fpgausers/gbuarish/bin/llvm-strip"
+      - "/usr/local/bin/llvm-strip"
+      - "/usr/bin/llvm-strip"
+      - "/usr/local/sbin/llvm-strip"
+      - "/usr/sbin/llvm-strip"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-strip"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/strip"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/strip"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/strip"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/strip"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/strip"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/strip"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/strip"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/strip"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/strip"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/strip"
+      - "/opt/Quartus/quartus/bin/strip"
+      - "/opt/Quartus/qsys/bin/strip"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/strip"
+      - "/home/fpgausers/gbuarish/.local/bin/strip"
+      - "/home/fpgausers/gbuarish/bin/strip"
+      - "/usr/local/bin/strip"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.lld"
+      - "ld"
+    candidate_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/"
+      - "/opt/Quartus/quartus/bin/"
+      - "/opt/Quartus/qsys/bin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/"
+      - "/home/fpgausers/gbuarish/.local/bin/"
+      - "/home/fpgausers/gbuarish/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/ld.lld"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/ld.lld"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/ld.lld"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/ld.lld"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/ld.lld"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/ld.lld"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/ld.lld"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/ld.lld"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/ld.lld"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/ld.lld"
+      - "/opt/Quartus/quartus/bin/ld.lld"
+      - "/opt/Quartus/qsys/bin/ld.lld"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/ld.lld"
+      - "/home/fpgausers/gbuarish/.local/bin/ld.lld"
+      - "/home/fpgausers/gbuarish/bin/ld.lld"
+      - "/usr/local/bin/ld.lld"
+      - "/usr/bin/ld.lld"
+      - "/usr/local/sbin/ld.lld"
+      - "/usr/sbin/ld.lld"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/ld.lld"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/ld"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/ld"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/ld"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/ld"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/ld"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/ld"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/ld"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/ld"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/ld"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/ld"
+      - "/opt/Quartus/quartus/bin/ld"
+      - "/opt/Quartus/qsys/bin/ld"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/ld"
+      - "/home/fpgausers/gbuarish/.local/bin/ld"
+      - "/home/fpgausers/gbuarish/bin/ld"
+      - "/usr/local/bin/ld"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-nm"
+      - "nm"
+    candidate_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/"
+      - "/opt/Quartus/quartus/bin/"
+      - "/opt/Quartus/qsys/bin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/"
+      - "/home/fpgausers/gbuarish/.local/bin/"
+      - "/home/fpgausers/gbuarish/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/llvm-nm"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/llvm-nm"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/llvm-nm"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/llvm-nm"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/llvm-nm"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/llvm-nm"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/llvm-nm"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/llvm-nm"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/llvm-nm"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/llvm-nm"
+      - "/opt/Quartus/quartus/bin/llvm-nm"
+      - "/opt/Quartus/qsys/bin/llvm-nm"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/llvm-nm"
+      - "/home/fpgausers/gbuarish/.local/bin/llvm-nm"
+      - "/home/fpgausers/gbuarish/bin/llvm-nm"
+      - "/usr/local/bin/llvm-nm"
+      - "/usr/bin/llvm-nm"
+      - "/usr/local/sbin/llvm-nm"
+      - "/usr/sbin/llvm-nm"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-nm"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/nm"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/nm"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/nm"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/nm"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/nm"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/nm"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/nm"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/nm"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/nm"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/nm"
+      - "/opt/Quartus/quartus/bin/nm"
+      - "/opt/Quartus/qsys/bin/nm"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/nm"
+      - "/home/fpgausers/gbuarish/.local/bin/nm"
+      - "/home/fpgausers/gbuarish/bin/nm"
+      - "/usr/local/bin/nm"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/"
+      - "/opt/Quartus/quartus/bin/"
+      - "/opt/Quartus/qsys/bin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/"
+      - "/home/fpgausers/gbuarish/.local/bin/"
+      - "/home/fpgausers/gbuarish/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/llvm-objdump"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/llvm-objdump"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/llvm-objdump"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/llvm-objdump"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/llvm-objdump"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/llvm-objdump"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/llvm-objdump"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/llvm-objdump"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/llvm-objdump"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/llvm-objdump"
+      - "/opt/Quartus/quartus/bin/llvm-objdump"
+      - "/opt/Quartus/qsys/bin/llvm-objdump"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/llvm-objdump"
+      - "/home/fpgausers/gbuarish/.local/bin/llvm-objdump"
+      - "/home/fpgausers/gbuarish/bin/llvm-objdump"
+      - "/usr/local/bin/llvm-objdump"
+      - "/usr/bin/llvm-objdump"
+      - "/usr/local/sbin/llvm-objdump"
+      - "/usr/sbin/llvm-objdump"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-objdump"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/objdump"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/objdump"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/objdump"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/objdump"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/objdump"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/objdump"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/objdump"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/objdump"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/objdump"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/objdump"
+      - "/opt/Quartus/quartus/bin/objdump"
+      - "/opt/Quartus/qsys/bin/objdump"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/objdump"
+      - "/home/fpgausers/gbuarish/.local/bin/objdump"
+      - "/home/fpgausers/gbuarish/bin/objdump"
+      - "/usr/local/bin/objdump"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/"
+      - "/opt/Quartus/quartus/bin/"
+      - "/opt/Quartus/qsys/bin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/"
+      - "/home/fpgausers/gbuarish/.local/bin/"
+      - "/home/fpgausers/gbuarish/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/llvm-objcopy"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/llvm-objcopy"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/llvm-objcopy"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/llvm-objcopy"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/llvm-objcopy"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/llvm-objcopy"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/llvm-objcopy"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/llvm-objcopy"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/llvm-objcopy"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/llvm-objcopy"
+      - "/opt/Quartus/quartus/bin/llvm-objcopy"
+      - "/opt/Quartus/qsys/bin/llvm-objcopy"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/llvm-objcopy"
+      - "/home/fpgausers/gbuarish/.local/bin/llvm-objcopy"
+      - "/home/fpgausers/gbuarish/bin/llvm-objcopy"
+      - "/usr/local/bin/llvm-objcopy"
+      - "/usr/bin/llvm-objcopy"
+      - "/usr/local/sbin/llvm-objcopy"
+      - "/usr/sbin/llvm-objcopy"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-objcopy"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/objcopy"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/objcopy"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/objcopy"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/objcopy"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/objcopy"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/objcopy"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/objcopy"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/objcopy"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/objcopy"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/objcopy"
+      - "/opt/Quartus/quartus/bin/objcopy"
+      - "/opt/Quartus/qsys/bin/objcopy"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/objcopy"
+      - "/home/fpgausers/gbuarish/.local/bin/objcopy"
+      - "/home/fpgausers/gbuarish/bin/objcopy"
+      - "/usr/local/bin/objcopy"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/"
+      - "/opt/Quartus/quartus/bin/"
+      - "/opt/Quartus/qsys/bin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/"
+      - "/home/fpgausers/gbuarish/.local/bin/"
+      - "/home/fpgausers/gbuarish/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/llvm-readelf"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/llvm-readelf"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/llvm-readelf"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/llvm-readelf"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/llvm-readelf"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/llvm-readelf"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/llvm-readelf"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/llvm-readelf"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/llvm-readelf"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/llvm-readelf"
+      - "/opt/Quartus/quartus/bin/llvm-readelf"
+      - "/opt/Quartus/qsys/bin/llvm-readelf"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/llvm-readelf"
+      - "/home/fpgausers/gbuarish/.local/bin/llvm-readelf"
+      - "/home/fpgausers/gbuarish/bin/llvm-readelf"
+      - "/usr/local/bin/llvm-readelf"
+      - "/usr/bin/llvm-readelf"
+      - "/usr/local/sbin/llvm-readelf"
+      - "/usr/sbin/llvm-readelf"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-readelf"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/readelf"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/readelf"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/readelf"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/readelf"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/readelf"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/readelf"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/readelf"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/readelf"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/readelf"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/readelf"
+      - "/opt/Quartus/quartus/bin/readelf"
+      - "/opt/Quartus/qsys/bin/readelf"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/readelf"
+      - "/home/fpgausers/gbuarish/.local/bin/readelf"
+      - "/home/fpgausers/gbuarish/bin/readelf"
+      - "/usr/local/bin/readelf"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/"
+      - "/opt/Quartus/quartus/bin/"
+      - "/opt/Quartus/qsys/bin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/"
+      - "/home/fpgausers/gbuarish/.local/bin/"
+      - "/home/fpgausers/gbuarish/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/llvm-dlltool"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/llvm-dlltool"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/llvm-dlltool"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/llvm-dlltool"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/llvm-dlltool"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/llvm-dlltool"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/llvm-dlltool"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/llvm-dlltool"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/llvm-dlltool"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/llvm-dlltool"
+      - "/opt/Quartus/quartus/bin/llvm-dlltool"
+      - "/opt/Quartus/qsys/bin/llvm-dlltool"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/llvm-dlltool"
+      - "/home/fpgausers/gbuarish/.local/bin/llvm-dlltool"
+      - "/home/fpgausers/gbuarish/bin/llvm-dlltool"
+      - "/usr/local/bin/llvm-dlltool"
+      - "/usr/bin/llvm-dlltool"
+      - "/usr/local/sbin/llvm-dlltool"
+      - "/usr/sbin/llvm-dlltool"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-dlltool"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/dlltool"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/dlltool"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/dlltool"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/dlltool"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/dlltool"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/dlltool"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/dlltool"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/dlltool"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/dlltool"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/dlltool"
+      - "/opt/Quartus/quartus/bin/dlltool"
+      - "/opt/Quartus/qsys/bin/dlltool"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/dlltool"
+      - "/home/fpgausers/gbuarish/.local/bin/dlltool"
+      - "/home/fpgausers/gbuarish/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/"
+      - "/opt/Quartus/quartus/bin/"
+      - "/opt/Quartus/qsys/bin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/"
+      - "/home/fpgausers/gbuarish/.local/bin/"
+      - "/home/fpgausers/gbuarish/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/llvm-addr2line"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/llvm-addr2line"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/llvm-addr2line"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/llvm-addr2line"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/llvm-addr2line"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/llvm-addr2line"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/llvm-addr2line"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/llvm-addr2line"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/llvm-addr2line"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/llvm-addr2line"
+      - "/opt/Quartus/quartus/bin/llvm-addr2line"
+      - "/opt/Quartus/qsys/bin/llvm-addr2line"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/llvm-addr2line"
+      - "/home/fpgausers/gbuarish/.local/bin/llvm-addr2line"
+      - "/home/fpgausers/gbuarish/bin/llvm-addr2line"
+      - "/usr/local/bin/llvm-addr2line"
+      - "/usr/bin/llvm-addr2line"
+      - "/usr/local/sbin/llvm-addr2line"
+      - "/usr/sbin/llvm-addr2line"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-addr2line"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/addr2line"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/addr2line"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/addr2line"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/addr2line"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/addr2line"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/addr2line"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/addr2line"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/addr2line"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/addr2line"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/addr2line"
+      - "/opt/Quartus/quartus/bin/addr2line"
+      - "/opt/Quartus/qsys/bin/addr2line"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/addr2line"
+      - "/home/fpgausers/gbuarish/.local/bin/addr2line"
+      - "/home/fpgausers/gbuarish/bin/addr2line"
+      - "/usr/local/bin/addr2line"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/"
+      - "/opt/Quartus/quartus/bin/"
+      - "/opt/Quartus/qsys/bin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/"
+      - "/home/fpgausers/gbuarish/.local/bin/"
+      - "/home/fpgausers/gbuarish/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/tapi"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/tapi"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/tapi"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/tapi"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/tapi"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/tapi"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/tapi"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/tapi"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/tapi"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/tapi"
+      - "/opt/Quartus/quartus/bin/tapi"
+      - "/opt/Quartus/qsys/bin/tapi"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/tapi"
+      - "/home/fpgausers/gbuarish/.local/bin/tapi"
+      - "/home/fpgausers/gbuarish/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/sbin/tapi"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/Compiler/IntelLLVM-FindBinUtils.cmake:29 (find_program)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-2025.0"
+      - "llvm-ar-2025"
+      - "llvm-ar"
+    candidate_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin-llvm/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/"
+      - "/opt/Quartus/quartus/bin/"
+      - "/opt/Quartus/qsys/bin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/"
+      - "/home/fpgausers/gbuarish/.local/bin/"
+      - "/home/fpgausers/gbuarish/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin-llvm/llvm-ar-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/llvm-ar-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/llvm-ar-2025.0"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/llvm-ar-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/llvm-ar-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/llvm-ar-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/llvm-ar-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/llvm-ar-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/llvm-ar-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/llvm-ar-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/llvm-ar-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/llvm-ar-2025.0"
+      - "/opt/Quartus/quartus/bin/llvm-ar-2025.0"
+      - "/opt/Quartus/qsys/bin/llvm-ar-2025.0"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/llvm-ar-2025.0"
+      - "/home/fpgausers/gbuarish/.local/bin/llvm-ar-2025.0"
+      - "/home/fpgausers/gbuarish/bin/llvm-ar-2025.0"
+      - "/usr/local/bin/llvm-ar-2025.0"
+      - "/usr/bin/llvm-ar-2025.0"
+      - "/usr/local/sbin/llvm-ar-2025.0"
+      - "/usr/sbin/llvm-ar-2025.0"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin-llvm/llvm-ar-2025"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/llvm-ar-2025"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/llvm-ar-2025"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/llvm-ar-2025"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/llvm-ar-2025"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/llvm-ar-2025"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/llvm-ar-2025"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/llvm-ar-2025"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/llvm-ar-2025"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/llvm-ar-2025"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/llvm-ar-2025"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/llvm-ar-2025"
+      - "/opt/Quartus/quartus/bin/llvm-ar-2025"
+      - "/opt/Quartus/qsys/bin/llvm-ar-2025"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/llvm-ar-2025"
+      - "/home/fpgausers/gbuarish/.local/bin/llvm-ar-2025"
+      - "/home/fpgausers/gbuarish/bin/llvm-ar-2025"
+      - "/usr/local/bin/llvm-ar-2025"
+      - "/usr/bin/llvm-ar-2025"
+      - "/usr/local/sbin/llvm-ar-2025"
+      - "/usr/sbin/llvm-ar-2025"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-2025"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin-llvm/llvm-ar"
+    found: "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/llvm-ar"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/Compiler/IntelLLVM-FindBinUtils.cmake:40 (find_program)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-2025.0"
+      - "llvm-ranlib-2025"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin-llvm/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/"
+      - "/opt/Quartus/quartus/bin/"
+      - "/opt/Quartus/qsys/bin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/"
+      - "/home/fpgausers/gbuarish/.local/bin/"
+      - "/home/fpgausers/gbuarish/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin-llvm/llvm-ranlib-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/llvm-ranlib-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/llvm-ranlib-2025.0"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/llvm-ranlib-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/llvm-ranlib-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/llvm-ranlib-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/llvm-ranlib-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/llvm-ranlib-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/llvm-ranlib-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/llvm-ranlib-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/llvm-ranlib-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/llvm-ranlib-2025.0"
+      - "/opt/Quartus/quartus/bin/llvm-ranlib-2025.0"
+      - "/opt/Quartus/qsys/bin/llvm-ranlib-2025.0"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/llvm-ranlib-2025.0"
+      - "/home/fpgausers/gbuarish/.local/bin/llvm-ranlib-2025.0"
+      - "/home/fpgausers/gbuarish/bin/llvm-ranlib-2025.0"
+      - "/usr/local/bin/llvm-ranlib-2025.0"
+      - "/usr/bin/llvm-ranlib-2025.0"
+      - "/usr/local/sbin/llvm-ranlib-2025.0"
+      - "/usr/sbin/llvm-ranlib-2025.0"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-2025.0"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin-llvm/llvm-ranlib-2025"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/llvm-ranlib-2025"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/llvm-ranlib-2025"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/llvm-ranlib-2025"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/llvm-ranlib-2025"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/llvm-ranlib-2025"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/llvm-ranlib-2025"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/llvm-ranlib-2025"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/llvm-ranlib-2025"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/llvm-ranlib-2025"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/llvm-ranlib-2025"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/llvm-ranlib-2025"
+      - "/opt/Quartus/quartus/bin/llvm-ranlib-2025"
+      - "/opt/Quartus/qsys/bin/llvm-ranlib-2025"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/llvm-ranlib-2025"
+      - "/home/fpgausers/gbuarish/.local/bin/llvm-ranlib-2025"
+      - "/home/fpgausers/gbuarish/bin/llvm-ranlib-2025"
+      - "/usr/local/bin/llvm-ranlib-2025"
+      - "/usr/bin/llvm-ranlib-2025"
+      - "/usr/local/sbin/llvm-ranlib-2025"
+      - "/usr/sbin/llvm-ranlib-2025"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-2025"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin-llvm/llvm-ranlib"
+    found: "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/llvm-ranlib"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-jfMuio"
+      binary: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-jfMuio"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g -Rno-debug-disables-optimization"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-jfMuio'
+        
+        Run Build Command(s): /home/fpgausers/gbuarish/tools/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c0519/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c0519.dir/build.make CMakeFiles/cmTC_c0519.dir/build
+        gmake[1]: Entering directory '/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-jfMuio'
+        Building CXX object CMakeFiles/cmTC_c0519.dir/CMakeCXXCompilerABI.cpp.o
+        /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/icpx   -v -MD -MT CMakeFiles/cmTC_c0519.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_c0519.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_c0519.dir/CMakeCXXCompilerABI.cpp.o -c /home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp
+        Intel(R) oneAPI DPC++/C++ Compiler 2025.0.4 (2025.0.4.20241205)
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler
+        Configuration file: /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../icpx.cfg
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/11
+        Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/11
+        Candidate multilib: .;@m64
+        Candidate multilib: 32;@m32
+        Selected multilib: .;@m64
+         (in-process)
+         "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/clang" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -fveclib=SVML -faltmathlib=SVMLAltMathLibrary -mframe-pointer=none -fapprox-func -funsafe-math-optimizations -fno-signed-zeros -mreassociate -freciprocal-math -fdenormal-fp-math=preserve-sign,preserve-sign -ffp-contract=fast -fno-rounding-math -complex-range=promoted -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -mllvm -x86-enable-unaligned-vector-move=true -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-jfMuio -v -fcoverage-compilation-dir=/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-jfMuio -fclang-abi-compat=17 -resource-dir /data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib/clang/19 -dependency-file CMakeFiles/cmTC_c0519.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_c0519.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -I/data/CMS_CLUE/intel/oneapi/umf/0.9/include -I/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/../include -I/data/CMS_CLUE/intel/oneapi/pti/0.10/include -I/data/CMS_CLUE/intel/oneapi/mpi/2021.14/include -I/data/CMS_CLUE/intel/oneapi/mkl/2025.0/include -I/data/CMS_CLUE/intel/oneapi/ippcp/2025.0/include -I/data/CMS_CLUE/intel/oneapi/ipp/2022.0/include -I/data/CMS_CLUE/intel/oneapi/dpl/2022.7/include -I/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/include -I/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/include -I/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/include -I/data/CMS_CLUE/intel/oneapi/dal/2025.0/include -I/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/include -I/data/CMS_CLUE/intel/oneapi/ccl/2021.14/include -internal-isystem /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward -internal-isystem /data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib/clang/19/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/11/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -O2 -fdeprecated-macro -ferror-limit 19 -fheinous-gnu-extensions -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -mllvm -disable-hir-generate-mkl-call -mllvm -loopopt=1 -floopopt-pipeline=light -mllvm -intel-abi-compatible=true -D__GCC_HAVE_DWARF2_CFI_ASM=1 -fintel-compatibility -fintel-libirc-allowed -fintel-libimf-allowed -o CMakeFiles/cmTC_c0519.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 19.0.0git based upon LLVM 19.0.0git default target x86_64-unknown-linux-gnu
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/../../../../x86_64-redhat-linux/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /data/CMS_CLUE/intel/oneapi/umf/0.9/include
+         /data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/../include
+         /data/CMS_CLUE/intel/oneapi/pti/0.10/include
+         /data/CMS_CLUE/intel/oneapi/mpi/2021.14/include
+         /data/CMS_CLUE/intel/oneapi/mkl/2025.0/include
+         /data/CMS_CLUE/intel/oneapi/ippcp/2025.0/include
+         /data/CMS_CLUE/intel/oneapi/ipp/2022.0/include
+         /data/CMS_CLUE/intel/oneapi/dpl/2022.7/include
+         /data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/include
+         /data/CMS_CLUE/intel/oneapi/dnnl/2025.0/include
+         /data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/include
+         /data/CMS_CLUE/intel/oneapi/dal/2025.0/include
+         /data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/include
+         /data/CMS_CLUE/intel/oneapi/ccl/2021.14/include
+         /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/include
+         /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11
+         /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux
+         /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward
+         /data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib/clang/19/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Linking CXX executable cmTC_c0519
+        /home/fpgausers/gbuarish/tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0519.dir/link.txt --verbose=1
+        Intel(R) oneAPI DPC++/C++ Compiler 2025.0.4 (2025.0.4.20241205)
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler
+        Configuration file: /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../icpx.cfg
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/11
+        Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/11
+        Candidate multilib: .;@m64
+        Candidate multilib: 32;@m32
+        Selected multilib: .;@m64
+         "/usr/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c0519 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/lib -L/lib -L/usr/lib -L/data/CMS_CLUE/intel/oneapi/tcm/1.2/lib -L/data/CMS_CLUE/intel/oneapi/umf/0.9/lib -L/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/../lib/intel64/gcc4.8 -L/data/CMS_CLUE/intel/oneapi/pti/0.10/lib -L/data/CMS_CLUE/intel/oneapi/mpi/2021.14/lib -L/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib -L/data/CMS_CLUE/intel/oneapi/ippcp/2025.0/lib/ -L/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib -L/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib -L/data/CMS_CLUE/intel/oneapi/dal/2025.0/lib -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib -L/data/CMS_CLUE/intel/oneapi/ccl/2021.14/lib/ CMakeFiles/cmTC_c0519.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lsvml -Bdynamic -Bstatic -lirng -Bdynamic -lstdc++ -Bstatic -limf -Bdynamic -lm -lgcc_s -lgcc -Bstatic -lirc -Bdynamic -ldl -lgcc_s -lgcc -lc -lgcc_s -lgcc -Bstatic -lirc_s -Bdynamic /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o
+        /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/icpx  -v CMakeFiles/cmTC_c0519.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c0519
+        gmake[1]: Leaving directory '/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-jfMuio'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/data/CMS_CLUE/intel/oneapi/umf/0.9/include]
+          add: [/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/../include]
+          add: [/data/CMS_CLUE/intel/oneapi/pti/0.10/include]
+          add: [/data/CMS_CLUE/intel/oneapi/mpi/2021.14/include]
+          add: [/data/CMS_CLUE/intel/oneapi/mkl/2025.0/include]
+          add: [/data/CMS_CLUE/intel/oneapi/ippcp/2025.0/include]
+          add: [/data/CMS_CLUE/intel/oneapi/ipp/2022.0/include]
+          add: [/data/CMS_CLUE/intel/oneapi/dpl/2022.7/include]
+          add: [/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/include]
+          add: [/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/include]
+          add: [/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/include]
+          add: [/data/CMS_CLUE/intel/oneapi/dal/2025.0/include]
+          add: [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/include]
+          add: [/data/CMS_CLUE/intel/oneapi/ccl/2021.14/include]
+          add: [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/include]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward]
+          add: [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib/clang/19/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/data/CMS_CLUE/intel/oneapi/umf/0.9/include] ==> [/data/CMS_CLUE/intel/oneapi/umf/0.9/include]
+        collapse include dir [/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/../include] ==> [/data/CMS_CLUE/intel/oneapi/tbb/2022.0/include]
+        collapse include dir [/data/CMS_CLUE/intel/oneapi/pti/0.10/include] ==> [/data/CMS_CLUE/intel/oneapi/pti/0.10/include]
+        collapse include dir [/data/CMS_CLUE/intel/oneapi/mpi/2021.14/include] ==> [/data/CMS_CLUE/intel/oneapi/mpi/2021.14/include]
+        collapse include dir [/data/CMS_CLUE/intel/oneapi/mkl/2025.0/include] ==> [/data/CMS_CLUE/intel/oneapi/mkl/2025.0/include]
+        collapse include dir [/data/CMS_CLUE/intel/oneapi/ippcp/2025.0/include] ==> [/data/CMS_CLUE/intel/oneapi/ippcp/2025.0/include]
+        collapse include dir [/data/CMS_CLUE/intel/oneapi/ipp/2022.0/include] ==> [/data/CMS_CLUE/intel/oneapi/ipp/2022.0/include]
+        collapse include dir [/data/CMS_CLUE/intel/oneapi/dpl/2022.7/include] ==> [/data/CMS_CLUE/intel/oneapi/dpl/2022.7/include]
+        collapse include dir [/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/include] ==> [/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/include]
+        collapse include dir [/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/include] ==> [/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/include]
+        collapse include dir [/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/include] ==> [/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/include]
+        collapse include dir [/data/CMS_CLUE/intel/oneapi/dal/2025.0/include] ==> [/data/CMS_CLUE/intel/oneapi/dal/2025.0/include]
+        collapse include dir [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/include] ==> [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/include]
+        collapse include dir [/data/CMS_CLUE/intel/oneapi/ccl/2021.14/include] ==> [/data/CMS_CLUE/intel/oneapi/ccl/2021.14/include]
+        collapse include dir [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/include] ==> [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/compiler/include]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11] ==> [/usr/include/c++/11]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux] ==> [/usr/include/c++/11/x86_64-redhat-linux]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+        collapse include dir [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib/clang/19/include] ==> [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib/clang/19/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/data/CMS_CLUE/intel/oneapi/umf/0.9/include;/data/CMS_CLUE/intel/oneapi/tbb/2022.0/include;/data/CMS_CLUE/intel/oneapi/pti/0.10/include;/data/CMS_CLUE/intel/oneapi/mpi/2021.14/include;/data/CMS_CLUE/intel/oneapi/mkl/2025.0/include;/data/CMS_CLUE/intel/oneapi/ippcp/2025.0/include;/data/CMS_CLUE/intel/oneapi/ipp/2022.0/include;/data/CMS_CLUE/intel/oneapi/dpl/2022.7/include;/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/include;/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/include;/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/include;/data/CMS_CLUE/intel/oneapi/dal/2025.0/include;/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/include;/data/CMS_CLUE/intel/oneapi/ccl/2021.14/include;/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/compiler/include;/usr/include/c++/11;/usr/include/c++/11/x86_64-redhat-linux;/usr/include/c++/11/backward;/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib/clang/19/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-jfMuio']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/fpgausers/gbuarish/tools/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c0519/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_c0519.dir/build.make CMakeFiles/cmTC_c0519.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-jfMuio']
+        ignore line: [Building CXX object CMakeFiles/cmTC_c0519.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/icpx   -v -MD -MT CMakeFiles/cmTC_c0519.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_c0519.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_c0519.dir/CMakeCXXCompilerABI.cpp.o -c /home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Intel(R) oneAPI DPC++/C++ Compiler 2025.0.4 (2025.0.4.20241205)]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler]
+        ignore line: [Configuration file: /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../icpx.cfg]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/11]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/11]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Candidate multilib: 32]
+        ignore line: [@m32]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/clang" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -fveclib=SVML -faltmathlib=SVMLAltMathLibrary -mframe-pointer=none -fapprox-func -funsafe-math-optimizations -fno-signed-zeros -mreassociate -freciprocal-math -fdenormal-fp-math=preserve-sign preserve-sign -ffp-contract=fast -fno-rounding-math -complex-range=promoted -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -mllvm -x86-enable-unaligned-vector-move=true -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-jfMuio -v -fcoverage-compilation-dir=/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-jfMuio -fclang-abi-compat=17 -resource-dir /data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib/clang/19 -dependency-file CMakeFiles/cmTC_c0519.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_c0519.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -I/data/CMS_CLUE/intel/oneapi/umf/0.9/include -I/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/../include -I/data/CMS_CLUE/intel/oneapi/pti/0.10/include -I/data/CMS_CLUE/intel/oneapi/mpi/2021.14/include -I/data/CMS_CLUE/intel/oneapi/mkl/2025.0/include -I/data/CMS_CLUE/intel/oneapi/ippcp/2025.0/include -I/data/CMS_CLUE/intel/oneapi/ipp/2022.0/include -I/data/CMS_CLUE/intel/oneapi/dpl/2022.7/include -I/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/include -I/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/include -I/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/include -I/data/CMS_CLUE/intel/oneapi/dal/2025.0/include -I/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/include -I/data/CMS_CLUE/intel/oneapi/ccl/2021.14/include -internal-isystem /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward -internal-isystem /data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib/clang/19/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/11/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -O2 -fdeprecated-macro -ferror-limit 19 -fheinous-gnu-extensions -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -mllvm -disable-hir-generate-mkl-call -mllvm -loopopt=1 -floopopt-pipeline=light -mllvm -intel-abi-compatible=true -D__GCC_HAVE_DWARF2_CFI_ASM=1 -fintel-compatibility -fintel-libirc-allowed -fintel-libimf-allowed -o CMakeFiles/cmTC_c0519.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 19.0.0git based upon LLVM 19.0.0git default target x86_64-unknown-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/../../../../x86_64-redhat-linux/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /data/CMS_CLUE/intel/oneapi/umf/0.9/include]
+        ignore line: [ /data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/../include]
+        ignore line: [ /data/CMS_CLUE/intel/oneapi/pti/0.10/include]
+        ignore line: [ /data/CMS_CLUE/intel/oneapi/mpi/2021.14/include]
+        ignore line: [ /data/CMS_CLUE/intel/oneapi/mkl/2025.0/include]
+        ignore line: [ /data/CMS_CLUE/intel/oneapi/ippcp/2025.0/include]
+        ignore line: [ /data/CMS_CLUE/intel/oneapi/ipp/2022.0/include]
+        ignore line: [ /data/CMS_CLUE/intel/oneapi/dpl/2022.7/include]
+        ignore line: [ /data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/include]
+        ignore line: [ /data/CMS_CLUE/intel/oneapi/dnnl/2025.0/include]
+        ignore line: [ /data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/include]
+        ignore line: [ /data/CMS_CLUE/intel/oneapi/dal/2025.0/include]
+        ignore line: [ /data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/include]
+        ignore line: [ /data/CMS_CLUE/intel/oneapi/ccl/2021.14/include]
+        ignore line: [ /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/include]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward]
+        ignore line: [ /data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib/clang/19/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_c0519]
+        ignore line: [/home/fpgausers/gbuarish/tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0519.dir/link.txt --verbose=1]
+        ignore line: [Intel(R) oneAPI DPC++/C++ Compiler 2025.0.4 (2025.0.4.20241205)]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler]
+        ignore line: [Configuration file: /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../icpx.cfg]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/11]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/11]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Candidate multilib: 32]
+        ignore line: [@m32]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c0519 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/lib -L/lib -L/usr/lib -L/data/CMS_CLUE/intel/oneapi/tcm/1.2/lib -L/data/CMS_CLUE/intel/oneapi/umf/0.9/lib -L/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/../lib/intel64/gcc4.8 -L/data/CMS_CLUE/intel/oneapi/pti/0.10/lib -L/data/CMS_CLUE/intel/oneapi/mpi/2021.14/lib -L/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib -L/data/CMS_CLUE/intel/oneapi/ippcp/2025.0/lib/ -L/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib -L/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib -L/data/CMS_CLUE/intel/oneapi/dal/2025.0/lib -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib -L/data/CMS_CLUE/intel/oneapi/ccl/2021.14/lib/ CMakeFiles/cmTC_c0519.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lsvml -Bdynamic -Bstatic -lirng -Bdynamic -lstdc++ -Bstatic -limf -Bdynamic -lm -lgcc_s -lgcc -Bstatic -lirc -Bdynamic -ldl -lgcc_s -lgcc -lc -lgcc_s -lgcc -Bstatic -lirc_s -Bdynamic /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c0519 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/lib -L/lib -L/usr/lib -L/data/CMS_CLUE/intel/oneapi/tcm/1.2/lib -L/data/CMS_CLUE/intel/oneapi/umf/0.9/lib -L/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/../lib/intel64/gcc4.8 -L/data/CMS_CLUE/intel/oneapi/pti/0.10/lib -L/data/CMS_CLUE/intel/oneapi/mpi/2021.14/lib -L/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib -L/data/CMS_CLUE/intel/oneapi/ippcp/2025.0/lib/ -L/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib -L/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib -L/data/CMS_CLUE/intel/oneapi/dal/2025.0/lib -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib -L/data/CMS_CLUE/intel/oneapi/ccl/2021.14/lib/ CMakeFiles/cmTC_c0519.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lsvml -Bdynamic -Bstatic -lirng -Bdynamic -lstdc++ -Bstatic -limf -Bdynamic -lm -lgcc_s -lgcc -Bstatic -lirc -Bdynamic -ldl -lgcc_s -lgcc -lc -lgcc_s -lgcc -Bstatic -lirc_s -Bdynamic /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o] ==> linker architecture flags [-m;elf]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c0519 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/lib -L/lib -L/usr/lib -L/data/CMS_CLUE/intel/oneapi/tcm/1.2/lib -L/data/CMS_CLUE/intel/oneapi/umf/0.9/lib -L/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/../lib/intel64/gcc4.8 -L/data/CMS_CLUE/intel/oneapi/pti/0.10/lib -L/data/CMS_CLUE/intel/oneapi/mpi/2021.14/lib -L/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib -L/data/CMS_CLUE/intel/oneapi/ippcp/2025.0/lib/ -L/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib -L/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib -L/data/CMS_CLUE/intel/oneapi/dal/2025.0/lib -L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib -L/data/CMS_CLUE/intel/oneapi/ccl/2021.14/lib/ CMakeFiles/cmTC_c0519.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lsvml -Bdynamic -Bstatic -lirng -Bdynamic -lstdc++ -Bstatic -limf -Bdynamic -lm -lgcc_s -lgcc -Bstatic -lirc -Bdynamic -ldl -lgcc_s -lgcc -lc -lgcc_s -lgcc -Bstatic -lirc_s -Bdynamic /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_c0519] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o]
+          arg [-L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> dir [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib]
+          arg [-L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> dir [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib]
+          arg [-L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu] ==> dir [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu]
+          arg [-L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> dir [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/11] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/11/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../..]
+          arg [-L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> dir [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib]
+          arg [-L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/lib] ==> dir [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/lib]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-L/data/CMS_CLUE/intel/oneapi/tcm/1.2/lib] ==> dir [/data/CMS_CLUE/intel/oneapi/tcm/1.2/lib]
+          arg [-L/data/CMS_CLUE/intel/oneapi/umf/0.9/lib] ==> dir [/data/CMS_CLUE/intel/oneapi/umf/0.9/lib]
+          arg [-L/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/../lib/intel64/gcc4.8] ==> dir [/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/../lib/intel64/gcc4.8]
+          arg [-L/data/CMS_CLUE/intel/oneapi/pti/0.10/lib] ==> dir [/data/CMS_CLUE/intel/oneapi/pti/0.10/lib]
+          arg [-L/data/CMS_CLUE/intel/oneapi/mpi/2021.14/lib] ==> dir [/data/CMS_CLUE/intel/oneapi/mpi/2021.14/lib]
+          arg [-L/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib] ==> dir [/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib]
+          arg [-L/data/CMS_CLUE/intel/oneapi/ippcp/2025.0/lib/] ==> dir [/data/CMS_CLUE/intel/oneapi/ippcp/2025.0/lib/]
+          arg [-L/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib] ==> dir [/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib]
+          arg [-L/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib] ==> dir [/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib]
+          arg [-L/data/CMS_CLUE/intel/oneapi/dal/2025.0/lib] ==> dir [/data/CMS_CLUE/intel/oneapi/dal/2025.0/lib]
+          arg [-L/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib] ==> dir [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib]
+          arg [-L/data/CMS_CLUE/intel/oneapi/ccl/2021.14/lib/] ==> dir [/data/CMS_CLUE/intel/oneapi/ccl/2021.14/lib/]
+          arg [CMakeFiles/cmTC_c0519.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-Bstatic] ==> search static
+          arg [-lsvml] ==> lib [svml]
+          arg [-Bdynamic] ==> search dynamic
+          arg [-Bstatic] ==> search static
+          arg [-lirng] ==> lib [irng]
+          arg [-Bdynamic] ==> search dynamic
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-Bstatic] ==> search static
+          arg [-limf] ==> lib [imf]
+          arg [-Bdynamic] ==> search dynamic
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-Bstatic] ==> search static
+          arg [-lirc] ==> lib [irc]
+          arg [-Bdynamic] ==> search dynamic
+          arg [-ldl] ==> lib [dl]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-Bstatic] ==> search static
+          arg [-lirc_s] ==> lib [irc_s]
+          arg [-Bdynamic] ==> search dynamic
+          arg [/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld -m;elf
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib]
+        collapse library dir [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib]
+        collapse library dir [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu] ==> [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu]
+        collapse library dir [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/11] ==> [/usr/lib/gcc/x86_64-redhat-linux/11]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../..] ==> [/usr/lib]
+        collapse library dir [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib]
+        collapse library dir [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/lib] ==> [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/compiler/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        collapse library dir [/data/CMS_CLUE/intel/oneapi/tcm/1.2/lib] ==> [/data/CMS_CLUE/intel/oneapi/tcm/1.2/lib]
+        collapse library dir [/data/CMS_CLUE/intel/oneapi/umf/0.9/lib] ==> [/data/CMS_CLUE/intel/oneapi/umf/0.9/lib]
+        collapse library dir [/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/../lib/intel64/gcc4.8] ==> [/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/intel64/gcc4.8]
+        collapse library dir [/data/CMS_CLUE/intel/oneapi/pti/0.10/lib] ==> [/data/CMS_CLUE/intel/oneapi/pti/0.10/lib]
+        collapse library dir [/data/CMS_CLUE/intel/oneapi/mpi/2021.14/lib] ==> [/data/CMS_CLUE/intel/oneapi/mpi/2021.14/lib]
+        collapse library dir [/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib] ==> [/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib]
+        collapse library dir [/data/CMS_CLUE/intel/oneapi/ippcp/2025.0/lib/] ==> [/data/CMS_CLUE/intel/oneapi/ippcp/2025.0/lib]
+        collapse library dir [/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib] ==> [/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib]
+        collapse library dir [/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib] ==> [/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib]
+        collapse library dir [/data/CMS_CLUE/intel/oneapi/dal/2025.0/lib] ==> [/data/CMS_CLUE/intel/oneapi/dal/2025.0/lib]
+        collapse library dir [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib] ==> [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib]
+        collapse library dir [/data/CMS_CLUE/intel/oneapi/ccl/2021.14/lib/] ==> [/data/CMS_CLUE/intel/oneapi/ccl/2021.14/lib]
+        implicit libs: [svml;irng;stdc++;imf;m;gcc_s;gcc;irc;dl;gcc_s;gcc;c;gcc_s;gcc;irc_s]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib;/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu;/usr/lib/gcc/x86_64-redhat-linux/11;/usr/lib64;/lib64;/usr/lib;/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/compiler/lib;/lib;/data/CMS_CLUE/intel/oneapi/tcm/1.2/lib;/data/CMS_CLUE/intel/oneapi/umf/0.9/lib;/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/intel64/gcc4.8;/data/CMS_CLUE/intel/oneapi/pti/0.10/lib;/data/CMS_CLUE/intel/oneapi/mpi/2021.14/lib;/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib;/data/CMS_CLUE/intel/oneapi/ippcp/2025.0/lib;/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib;/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib;/data/CMS_CLUE/intel/oneapi/dal/2025.0/lib;/data/CMS_CLUE/intel/oneapi/ccl/2021.14/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld version 2.35.2-54.el9
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/FindThreads.cmake:162 (check_cxx_source_compiles)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "alpaka/cmake/alpakaCommon.cmake:208 (find_package)"
+      - "alpaka/CMakeLists.txt:96 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-DdVR1U"
+      binary: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-DdVR1U"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g -Rno-debug-disables-optimization"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-DdVR1U'
+        
+        Run Build Command(s): /home/fpgausers/gbuarish/tools/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_75b56/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_75b56.dir/build.make CMakeFiles/cmTC_75b56.dir/build
+        gmake[1]: Entering directory '/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-DdVR1U'
+        Building CXX object CMakeFiles/cmTC_75b56.dir/src.cxx.o
+        /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/icpx -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++20 -MD -MT CMakeFiles/cmTC_75b56.dir/src.cxx.o -MF CMakeFiles/cmTC_75b56.dir/src.cxx.o.d -o CMakeFiles/cmTC_75b56.dir/src.cxx.o -c /home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-DdVR1U/src.cxx
+        Linking CXX executable cmTC_75b56
+        /home/fpgausers/gbuarish/tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75b56.dir/link.txt --verbose=1
+        /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/icpx CMakeFiles/cmTC_75b56.dir/src.cxx.o -o cmTC_75b56
+        gmake[1]: Leaving directory '/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-DdVR1U'
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "alpaka/cmake/alpakaCommon.cmake:213 (find_library)"
+      - "alpaka/CMakeLists.txt:96 (include)"
+    mode: "library"
+    variable: "RT_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rt"
+    candidate_directories:
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/"
+      - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/"
+      - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/"
+      - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake/"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/lib/"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/"
+      - "/opt/Quartus/quartus/bin/"
+      - "/opt/Quartus/qsys/bin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/home/fpgausers/gbuarish/tools/cmake/"
+      - "/opt/"
+      - "/usr/lib64/X11/"
+    searched_directories:
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/"
+      - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/"
+      - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/"
+      - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake/"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/lib/"
+      - "/data/CMS_CLUE/intel/oneapi/dal/2025.0/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/lib/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/"
+      - "/home/fpgausers/gbuarish/tools/cmake/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64/"
+      - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/"
+      - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64/"
+      - "/opt/Quartus/quartus/bin/"
+      - "/opt/Quartus/qsys/bin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+    found: "/usr/lib64/librt.a"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/fpgausers/gbuarish/tools/cmake"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "alpaka/cmake/alpakaCommon.cmake:280 (try_compile)"
+      - "alpaka/CMakeLists.txt:96 (include)"
+    directories:
+      source: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/alpaka/alpakaFeatureTests/CMakeFiles/CMakeTmp"
+      binary: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/alpaka/alpakaFeatureTests/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g -Rno-debug-disables-optimization"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "alpaka_HAS_STD_MATH_CONSTANTS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/alpaka/alpakaFeatureTests/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /home/fpgausers/gbuarish/tools/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f2257/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f2257.dir/build.make CMakeFiles/cmTC_f2257.dir/build
+        gmake[1]: Entering directory '/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/alpaka/alpakaFeatureTests/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_f2257.dir/MathConstants.cpp.o
+        /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/icpx   -std=c++20 -MD -MT CMakeFiles/cmTC_f2257.dir/MathConstants.cpp.o -MF CMakeFiles/cmTC_f2257.dir/MathConstants.cpp.o.d -o CMakeFiles/cmTC_f2257.dir/MathConstants.cpp.o -c /home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/alpaka/cmake/tests/MathConstants.cpp
+        Linking CXX executable cmTC_f2257
+        /home/fpgausers/gbuarish/tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2257.dir/link.txt --verbose=1
+        /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/icpx CMakeFiles/cmTC_f2257.dir/MathConstants.cpp.o -o cmTC_f2257
+        gmake[1]: Leaving directory '/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/alpaka/alpakaFeatureTests/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/cmake/tbb/TBBConfig.cmake:69 (find_library)"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/oneDPLConfig.cmake:66 (find_package)"
+      - "alpaka/cmake/alpakaCommon.cmake:748 (find_package)"
+      - "alpaka/CMakeLists.txt:96 (include)"
+    mode: "library"
+    variable: "_tbb_release_lib"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "libtbb.so.12"
+    candidate_directories:
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/intel64/gcc4.8/"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/gcc4.8/"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/"
+    found: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/intel64/gcc4.8/libtbb.so.12"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/fpgausers/gbuarish/tools/cmake"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/cmake/tbb/TBBConfig.cmake:77 (find_library)"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/oneDPLConfig.cmake:66 (find_package)"
+      - "alpaka/cmake/alpakaCommon.cmake:748 (find_package)"
+      - "alpaka/CMakeLists.txt:96 (include)"
+    mode: "library"
+    variable: "_tbb_debug_lib"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "libtbb_debug.so.12"
+    candidate_directories:
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/intel64/gcc4.8/"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/gcc4.8/"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/"
+      - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/"
+    found: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/intel64/gcc4.8/libtbb_debug.so.12"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/fpgausers/gbuarish/tools/cmake"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/oneDPLConfig.cmake:66 (find_package)"
+      - "alpaka/cmake/alpakaCommon.cmake:748 (find_package)"
+      - "alpaka/CMakeLists.txt:96 (include)"
+    name: "TBB"
+    components:
+      -
+        name: "tbb"
+        required: true
+        found: true
+    configs:
+      -
+        filename: "TBB.cps"
+        kind: "cps"
+      -
+        filename: "tbb.cps"
+        kind: "cps"
+      -
+        filename: "TBBConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "tbb-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "2021"
+      version_complete: "2021"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "TBB"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/pkgRedirects/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/pkgRedirects/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/pkgRedirects/lib/x86_64-unknown-linux-gnu/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/pkgRedirects/lib/x86_64-unknown-linux-gnu/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/pkgRedirects/lib64/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/pkgRedirects/lib64/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/pkgRedirects/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/pkgRedirects/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/pkgRedirects/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/pkgRedirects/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/x86_64-unknown-linux-gnu/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/x86_64-unknown-linux-gnu/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib64/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib64/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found:
+      path: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/cmake/tbb/TBBConfig.cmake"
+      mode: "config"
+      version: "2022.0.0"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/fpgausers/gbuarish/tools/cmake"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/oneDPLConfig.cmake:122 (check_cxx_compiler_flag)"
+      - "alpaka/cmake/alpakaCommon.cmake:748 (find_package)"
+      - "alpaka/CMakeLists.txt:96 (include)"
+    checks:
+      - "Performing Test _fsycl_option"
+    directories:
+      source: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-9wWM6x"
+      binary: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-9wWM6x"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g -Rno-debug-disables-optimization"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "_fsycl_option"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-9wWM6x'
+        
+        Run Build Command(s): /home/fpgausers/gbuarish/tools/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f1f1d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f1f1d.dir/build.make CMakeFiles/cmTC_f1f1d.dir/build
+        gmake[1]: Entering directory '/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-9wWM6x'
+        Building CXX object CMakeFiles/cmTC_f1f1d.dir/src.cxx.o
+        /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/icpx -D_fsycl_option  -std=gnu++20   -fsycl -MD -MT CMakeFiles/cmTC_f1f1d.dir/src.cxx.o -MF CMakeFiles/cmTC_f1f1d.dir/src.cxx.o.d -o CMakeFiles/cmTC_f1f1d.dir/src.cxx.o -c /home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-9wWM6x/src.cxx
+        Linking CXX executable cmTC_f1f1d
+        /home/fpgausers/gbuarish/tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1f1d.dir/link.txt --verbose=1
+        /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/icpx CMakeFiles/cmTC_f1f1d.dir/src.cxx.o -o cmTC_f1f1d
+        gmake[1]: Leaving directory '/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-9wWM6x'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/fpgausers/gbuarish/tools/cmake/share/cmake-4.4/Modules/CheckIncludeFileCXX.cmake:126 (try_compile)"
+      - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/oneDPLConfig.cmake:124 (CHECK_INCLUDE_FILE_CXX)"
+      - "alpaka/cmake/alpakaCommon.cmake:748 (find_package)"
+      - "alpaka/CMakeLists.txt:96 (include)"
+    checks:
+      - "Looking for C++ include sycl/sycl.hpp"
+    directories:
+      source: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-FSfwO7"
+      binary: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-FSfwO7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fsycl"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -Rno-debug-disables-optimization"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "_sycl_header"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-FSfwO7'
+        
+        Run Build Command(s): /home/fpgausers/gbuarish/tools/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8bb37/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8bb37.dir/build.make CMakeFiles/cmTC_8bb37.dir/build
+        gmake[1]: Entering directory '/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-FSfwO7'
+        Building CXX object CMakeFiles/cmTC_8bb37.dir/CheckIncludeFile.cxx.o
+        /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/icpx   -fsycl  -std=gnu++20 -MD -MT CMakeFiles/cmTC_8bb37.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_8bb37.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_8bb37.dir/CheckIncludeFile.cxx.o -c /home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-FSfwO7/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_8bb37
+        /home/fpgausers/gbuarish/tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bb37.dir/link.txt --verbose=1
+        /data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/icpx  -fsycl  CMakeFiles/cmTC_8bb37.dir/CheckIncludeFile.cxx.o -o cmTC_8bb37
+        gmake[1]: Leaving directory '/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/CMakeScratch/TryCompile-FSfwO7'
+        
+      exitCode: 0
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "alpaka/cmake/alpakaCommon.cmake:748 (find_package)"
+      - "alpaka/CMakeLists.txt:96 (include)"
+    name: "oneDPL"
+    configs:
+      -
+        filename: "oneDPL.cps"
+        kind: "cps"
+      -
+        filename: "onedpl.cps"
+        kind: "cps"
+      -
+        filename: "oneDPLConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "onedpl-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "oneDPL"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/pkgRedirects/oneDPLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/pkgRedirects/onedpl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/pkgRedirects/lib/x86_64-unknown-linux-gnu/cps/oneDPL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/pkgRedirects/lib/x86_64-unknown-linux-gnu/cps/onedpl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/pkgRedirects/lib64/cps/oneDPL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/pkgRedirects/lib64/cps/onedpl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/pkgRedirects/lib/cps/oneDPL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/pkgRedirects/lib/cps/onedpl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/pkgRedirects/share/cps/oneDPL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/fpgausers/gbuarish/intel01-git/Alpaka-Version/FPGACLUE-Alpaka/build/CMakeFiles/pkgRedirects/share/cps/onedpl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/oneDPLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/onedpl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/x86_64-unknown-linux-gnu/cps/oneDPL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/x86_64-unknown-linux-gnu/cps/onedpl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib64/cps/oneDPL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib64/cps/onedpl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/cps/oneDPL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/cps/onedpl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/share/cps/oneDPL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/share/cps/onedpl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/oneDPLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/onedpl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/lib/x86_64-unknown-linux-gnu/cps/oneDPL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/lib/x86_64-unknown-linux-gnu/cps/onedpl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/lib64/cps/oneDPL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/lib64/cps/onedpl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/lib/cps/oneDPL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/lib/cps/onedpl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/share/cps/oneDPL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti/share/cps/onedpl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/oneDPLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/onedpl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/lib/x86_64-unknown-linux-gnu/cps/oneDPL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/lib/x86_64-unknown-linux-gnu/cps/onedpl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/lib64/cps/oneDPL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/lib64/cps/onedpl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/lib/cps/oneDPL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/lib/cps/onedpl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/share/cps/oneDPL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake/share/cps/onedpl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/oneDPLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/onedpl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/lib/x86_64-unknown-linux-gnu/cps/oneDPL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/lib/x86_64-unknown-linux-gnu/cps/onedpl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/lib64/cps/oneDPL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/lib64/cps/onedpl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/lib/cps/oneDPL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/lib/cps/onedpl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/share/cps/oneDPL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp/share/cps/onedpl.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found:
+      path: "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL/oneDPLConfig.cmake"
+      mode: "config"
+      version: "2022.7.0"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/data/CMS_CLUE/intel/oneapi/tbb/2022.0/env/.."
+        - "/data/CMS_CLUE/intel/oneapi/pti/0.10/lib/cmake/pti"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/ipp/2022.0/lib/cmake/ipp"
+        - "/data/CMS_CLUE/intel/oneapi/dpl/2022.7/lib/cmake/oneDPL"
+        - "/data/CMS_CLUE/intel/oneapi/dnnl/2025.0/lib/cmake"
+        - "/data/CMS_CLUE/intel/oneapi/dal/2025.0"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0"
+      ENV{PATH}:
+        - "/home/fpgausers/gbuarish/tools/cmake/bin"
+        - "/data/CMS_CLUE/intel/oneapi/vtune/2025.0/bin64"
+        - "/data/CMS_CLUE/intel/oneapi/mpi/2021.14/bin"
+        - "/data/CMS_CLUE/intel/oneapi/mkl/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dpcpp-ct/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/dev-utilities/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/debugger/2025.0/opt/debugger/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/opt/oclfpga/bin"
+        - "/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin"
+        - "/data/CMS_CLUE/intel/oneapi/advisor/2025.0/bin64"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/home/fpgausers/gbuarish/.local/bin"
+        - "/home/fpgausers/gbuarish/bin"
+        - "/opt/Quartus/quartus/bin"
+        - "/opt/Quartus/qsys/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/home/fpgausers/gbuarish/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/fpgausers/gbuarish/tools/cmake"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+...

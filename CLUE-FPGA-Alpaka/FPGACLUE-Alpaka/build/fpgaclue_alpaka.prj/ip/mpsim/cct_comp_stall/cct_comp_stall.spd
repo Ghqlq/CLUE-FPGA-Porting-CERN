@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="avalon_concatenate_singlebit_conduits_10/sim/cct_comp_stall_avalon_concatenate_singlebit_conduits_10_jiabaci.sv"
+   type="SYSTEM_VERILOG"
+   library="avalon_concatenate_singlebit_conduits_10" />
+ <file
+   path="sim/cct_comp_stall.v"
+   type="VERILOG"
+   library="cct_comp_stall"
+   hasInlineConfiguration="true" />
+ <topLevel name="cct_comp_stall.cct_comp_stall" />
+ <deviceFamily name="agilex7" />
+ <device name="AGFA006R16A2E1V" />
+</simPackage>

@@ -1,0 +1,6 @@
+	component const_lambda_4_en_cfan is
+		port (
+			in_conduit : in std_logic := 'X'  -- conduit
+		);
+	end component const_lambda_4_en_cfan;
+

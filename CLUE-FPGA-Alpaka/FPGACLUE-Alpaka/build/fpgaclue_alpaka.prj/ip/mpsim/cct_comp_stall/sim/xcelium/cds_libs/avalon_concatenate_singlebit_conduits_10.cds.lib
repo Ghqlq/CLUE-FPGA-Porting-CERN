@@ -1,0 +1,5 @@
+
+DEFINE                     work                                     ./../libraries/work/                                    
+DEFINE                     avalon_concatenate_singlebit_conduits_10 ./../libraries/avalon_concatenate_singlebit_conduits_10/
+INCLUDE simulator.cds.lib                                                                                                   
+SOFTINCLUDE device.cds.lib                                                                                                  

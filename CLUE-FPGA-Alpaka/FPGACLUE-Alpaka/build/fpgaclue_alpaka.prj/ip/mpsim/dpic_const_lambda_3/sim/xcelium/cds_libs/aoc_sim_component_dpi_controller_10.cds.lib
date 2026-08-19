@@ -1,0 +1,5 @@
+
+DEFINE                     work                                ./../libraries/work/                               
+DEFINE                     aoc_sim_component_dpi_controller_10 ./../libraries/aoc_sim_component_dpi_controller_10/
+INCLUDE simulator.cds.lib                                                                                         
+SOFTINCLUDE device.cds.lib                                                                                        

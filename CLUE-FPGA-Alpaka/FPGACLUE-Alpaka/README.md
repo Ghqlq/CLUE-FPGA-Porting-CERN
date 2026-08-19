@@ -1,0 +1,1 @@
+### This version of CLUE uses Alpaka and is written for FPGAs. No modifications done to how any kernel works. Very similar to how Khaled's code works except for some few additions to the code to make it output the correct results. These files replicate the same results as the original CLUE Alpaka source algorithm. 

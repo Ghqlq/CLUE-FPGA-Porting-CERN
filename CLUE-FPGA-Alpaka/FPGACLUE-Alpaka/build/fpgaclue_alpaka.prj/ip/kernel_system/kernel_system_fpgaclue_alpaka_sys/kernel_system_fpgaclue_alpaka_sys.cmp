@@ -1,0 +1,25 @@
+	component kernel_system_fpgaclue_alpaka_sys is
+		port (
+			clock                                     : in  std_logic                     := 'X';             -- clk
+			resetn                                    : in  std_logic                     := 'X';             -- reset_n
+			kernel_irq                                : out std_logic;                                        -- irq
+			avm_mem_gmem0_0_port_0_0_rw_address       : out std_logic_vector(40 downto 0);                    -- address
+			avm_mem_gmem0_0_port_0_0_rw_byteenable    : out std_logic_vector(7 downto 0);                     -- byteenable
+			avm_mem_gmem0_0_port_0_0_rw_readdatavalid : in  std_logic                     := 'X';             -- readdatavalid
+			avm_mem_gmem0_0_port_0_0_rw_read          : out std_logic;                                        -- read
+			avm_mem_gmem0_0_port_0_0_rw_readdata      : in  std_logic_vector(63 downto 0) := (others => 'X'); -- readdata
+			avm_mem_gmem0_0_port_0_0_rw_write         : out std_logic;                                        -- write
+			avm_mem_gmem0_0_port_0_0_rw_writedata     : out std_logic_vector(63 downto 0);                    -- writedata
+			avm_mem_gmem0_0_port_0_0_rw_waitrequest   : in  std_logic                     := 'X';             -- waitrequest
+			avm_mem_gmem0_0_port_0_0_rw_burstcount    : out std_logic;                                        -- burstcount
+			csr_ring_root_avs_read                    : in  std_logic                     := 'X';             -- read
+			csr_ring_root_avs_readdata                : out std_logic_vector(63 downto 0);                    -- readdata
+			csr_ring_root_avs_readdatavalid           : out std_logic;                                        -- readdatavalid
+			csr_ring_root_avs_write                   : in  std_logic                     := 'X';             -- write
+			csr_ring_root_avs_writedata               : in  std_logic_vector(63 downto 0) := (others => 'X'); -- writedata
+			csr_ring_root_avs_address                 : in  std_logic_vector(8 downto 0)  := (others => 'X'); -- address
+			csr_ring_root_avs_byteenable              : in  std_logic_vector(7 downto 0)  := (others => 'X'); -- byteenable
+			csr_ring_root_avs_waitrequest             : out std_logic                                         -- waitrequest
+		);
+	end component kernel_system_fpgaclue_alpaka_sys;
+

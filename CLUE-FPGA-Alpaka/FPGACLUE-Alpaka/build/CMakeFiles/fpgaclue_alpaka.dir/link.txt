@@ -1,0 +1,1 @@
+/data/CMS_CLUE/intel/oneapi/compiler/2025.0/bin/icpx -fsycl -fsycl-targets=spir64_fpga -Xsycl-target-backend=spir64_fpga -simulation -board=/data/CMS_CLUE/terasic/de10_agilex:B2E2_8GBx4 CMakeFiles/fpgaclue_alpaka.dir/src/main.cpp.o -o fpgaclue_alpaka  /usr/lib64/librt.a /data/CMS_CLUE/intel/oneapi/tbb/2022.0/lib/intel64/gcc4.8/libtbb.so.12 -fsycl

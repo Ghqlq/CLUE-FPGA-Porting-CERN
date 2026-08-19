@@ -1,0 +1,5 @@
+
+DEFINE                     work             ./../libraries/work/            
+DEFINE                     mem_org_mode_100 ./../libraries/mem_org_mode_100/
+INCLUDE simulator.cds.lib                                                   
+SOFTINCLUDE device.cds.lib                                                  

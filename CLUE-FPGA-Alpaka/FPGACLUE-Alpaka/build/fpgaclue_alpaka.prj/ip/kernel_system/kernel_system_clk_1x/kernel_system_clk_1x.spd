@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="sim/kernel_system_clk_1x.v"
+   type="VERILOG"
+   library="kernel_system_clk_1x"
+   hasInlineConfiguration="true" />
+ <topLevel name="kernel_system_clk_1x.kernel_system_clk_1x" />
+ <deviceFamily name="agilex7" />
+ <device name="AGFA006R16A2E1V" />
+</simPackage>

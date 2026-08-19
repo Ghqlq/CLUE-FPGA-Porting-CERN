@@ -1,0 +1,5 @@
+
+DEFINE                     work                    ./../libraries/work/                   
+DEFINE                     fpgaclue_alpaka_sys_140 ./../libraries/fpgaclue_alpaka_sys_140/
+INCLUDE simulator.cds.lib                                                                 
+SOFTINCLUDE device.cds.lib                                                                

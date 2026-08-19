@@ -1,0 +1,5 @@
+
+DEFINE                     work                           ./../libraries/work/                          
+DEFINE                     altera_merlin_multiplexer_1922 ./../libraries/altera_merlin_multiplexer_1922/
+INCLUDE simulator.cds.lib                                                                               
+SOFTINCLUDE device.cds.lib                                                                              

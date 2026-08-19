@@ -1,0 +1,5 @@
+
+DEFINE                     work            ./../libraries/work/           
+DEFINE                     hs_clk_xer_1941 ./../libraries/hs_clk_xer_1941/
+INCLUDE simulator.cds.lib                                                 
+SOFTINCLUDE device.cds.lib                                                

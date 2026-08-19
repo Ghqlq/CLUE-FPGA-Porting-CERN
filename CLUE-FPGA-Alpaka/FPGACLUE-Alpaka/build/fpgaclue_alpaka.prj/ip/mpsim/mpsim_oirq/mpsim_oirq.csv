@@ -1,0 +1,18 @@
+# system info mpsim_oirq on 2026.08.11.16:49:51
+system_info:
+name,value
+DEVICE,AGFA006R16A2E1V
+DEVICE_FAMILY,Agilex 7
+GENERATION_ID,0
+#
+#
+# Files generated for mpsim_oirq on 2026.08.11.16:49:51
+files:
+filepath,kind,attributes,module,is_top
+sim/mpsim_oirq.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,mpsim_oirq,true
+aoc_sim_main_dpi_controller_10/sim/aoc_sim_main_dpi_controller.sv,SYSTEM_VERILOG,,aoc_sim_main_dpi_controller,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+mpsim_oirq.oirq,aoc_sim_main_dpi_controller

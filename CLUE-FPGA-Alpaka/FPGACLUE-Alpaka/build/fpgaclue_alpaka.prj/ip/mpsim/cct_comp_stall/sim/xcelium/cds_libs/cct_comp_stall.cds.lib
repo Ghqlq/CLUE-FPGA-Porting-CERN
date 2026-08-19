@@ -1,0 +1,5 @@
+
+DEFINE                     work           ./../libraries/work/          
+DEFINE                     cct_comp_stall ./../libraries/cct_comp_stall/
+INCLUDE simulator.cds.lib                                               
+SOFTINCLUDE device.cds.lib                                              

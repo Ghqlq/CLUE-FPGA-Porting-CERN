@@ -1,0 +1,10 @@
+	component mpsim_oirq is
+		port (
+			clock            : in  std_logic := 'X'; -- clk
+			resetn           : in  std_logic := 'X'; -- reset_n
+			clock2x          : in  std_logic := 'X'; -- clk
+			trigger_reset    : out std_logic;        -- conduit
+			kernel_interrupt : in  std_logic := 'X'  -- irq
+		);
+	end component mpsim_oirq;
+

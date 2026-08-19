@@ -1,0 +1,7 @@
+
+WORK > DEFAULT
+DEFAULT:                             ./libraries/work/                               
+work:                                ./libraries/work/                               
+aoc_sim_component_dpi_controller_10: ./libraries/aoc_sim_component_dpi_controller_10/
+dpic_const_lambda_2:                 ./libraries/dpic_const_lambda_2/                
+OTHERS=_device_synopsys_sim.setup                                                    

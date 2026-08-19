@@ -1,0 +1,5 @@
+
+DEFINE                     work                     ./../libraries/work/                    
+DEFINE                     global_routing_reset_100 ./../libraries/global_routing_reset_100/
+INCLUDE simulator.cds.lib                                                                   
+SOFTINCLUDE device.cds.lib                                                                  

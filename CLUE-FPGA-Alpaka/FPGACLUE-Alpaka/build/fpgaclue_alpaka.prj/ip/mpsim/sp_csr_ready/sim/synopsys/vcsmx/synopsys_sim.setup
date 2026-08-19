@@ -1,0 +1,7 @@
+
+WORK > DEFAULT
+DEFAULT:                          ./libraries/work/                            
+work:                             ./libraries/work/                            
+avalon_split_multibit_conduit_10: ./libraries/avalon_split_multibit_conduit_10/
+sp_csr_ready:                     ./libraries/sp_csr_ready/                    
+OTHERS=_device_synopsys_sim.setup                                              

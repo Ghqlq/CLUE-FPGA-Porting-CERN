@@ -1,0 +1,11 @@
+	component sp_csr_ready is
+		port (
+			in_conduit    : in  std_logic_vector(4 downto 0) := (others => 'X'); -- conduit
+			out_conduit_0 : out std_logic;                                       -- conduit
+			out_conduit_1 : out std_logic;                                       -- conduit
+			out_conduit_2 : out std_logic;                                       -- conduit
+			out_conduit_3 : out std_logic;                                       -- conduit
+			out_conduit_4 : out std_logic                                        -- conduit
+		);
+	end component sp_csr_ready;
+
