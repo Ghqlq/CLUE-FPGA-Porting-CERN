@@ -4,7 +4,7 @@
 # Porting and Optimizing CLUE Reconstruction Algorithm With SYCL & Alpaka
 
 
-> **This project was conducted as part of the Summer Student Programme at CERN within the [CMS](https://cms.cern) experiment by Ghala Buarish and Farid Abbi Doumit, under the supervision of Andrea Bocci and Mario Gonzalez Carpintero.**
+> **This project was conducted as part of the Summer Student Programme at CERN within the [CMS](https://cms.cern) experiment by Ghala Buarish and Farid Abi Doumit, under the supervision of Andrea Bocci and Mario Gonzalez Carpintero.**
 
 > This project focuses the porting and optimization of the CLUE clustering algorithm for FPGA acceleration in the CMS experiment. The work consists of two approaches, Intel oneAPI SYCL and Alpaka, with the goal of evaluating their suitability for FPGA execution. It includes adapting existing implementations, verifying correctness, analyzing performance, and comparing the resulting implementations in terms of performance and resource usage.
 
