@@ -1,18 +1,19 @@
 #include <sycl/sycl.hpp>
 #include <cstdint> // for uint8_t
+#include <chrono>
+#include <iostream>
+#include <unordered_map>
+#include <vector>
+#include <algorithm>
 #include "CLUEAlgo.h"
 #include "TilesFPGA.h"
 #include <sycl/ext/intel/fpga_extensions.hpp>
 #include "onchip_memory_with_cache.hpp"
-// static const int maxNSeeds = 100000;
-// static const int maxNFollowers = 32;
-// static const int localStackSizePerSeed = 32;
-static const int maxNSeeds = 100;
-static const int maxNFollowers = 8;
-static const int localStackSizePerSeed = 8;
+static const int maxNSeeds = 100000;
+static const int maxNFollowers = 32;
+static const int localStackSizePerSeed = 32;
 //new
-// static const int maxPointerJumps = 15; //based on the longest possible path
-static const int maxPointerJumps = 4;
+static const int maxPointerJumps = 15; //based on the longest possible path
 //
 class ComputeHistogram;
 class CalculateDensity;
@@ -69,8 +70,7 @@ class CLUEAlgoFPGA : public CLUEAlgo<T,NLAYERS>{
     FPGA::VecArray<int, maxNFollowers> *d_followers;
     int *d_parentA;
     int *d_parentB;
-    //new
-    int *d_clusterIndex2;
+    int *d_histIterDebug;
     void init_device(){
         unsigned int reserve = 1000000;
         d_points.x = sycl::malloc_device<float>(reserve,q);
@@ -90,11 +90,11 @@ class CLUEAlgoFPGA : public CLUEAlgo<T,NLAYERS>{
         d_hist = sycl::malloc_device<TilesFPGA<T>>(NLAYERS,q);
         d_seeds = sycl::malloc_device<FPGA::VecArray<int, maxNSeeds>>(1,q);
         d_followers = sycl::malloc_device<FPGA::VecArray<int, maxNFollowers>>(reserve,q);
-        d_parentA = sycl::malloc_device<int>(reserve,q);
-        d_parentB = sycl::malloc_device<int>(reserve,q);
 
         // new
-        d_clusterIndex2 = sycl::malloc_device<int>(reserve,q);
+        d_parentA = sycl::malloc_device<int>(reserve,q);
+        d_parentB = sycl::malloc_device<int>(reserve,q);
+        d_histIterDebug = sycl::malloc_device<int>(reserve,q);
     }
     void free_device(){
         // input variables
@@ -115,10 +115,10 @@ class CLUEAlgoFPGA : public CLUEAlgo<T,NLAYERS>{
         free(d_hist,q);
         free(d_seeds,q);
         free(d_followers,q);
+        //new
         free(d_parentA,q);
         free(d_parentB,q);
-        //new
-        free(d_clusterIndex2,q);
+        free(d_histIterDebug,q);
     }
     void copy_todevice() {
     q.submit([&](sycl::handler &h) {
@@ -153,11 +153,10 @@ class CLUEAlgoFPGA : public CLUEAlgo<T,NLAYERS>{
         q.memset(d_hist,0x00,sizeof(TilesFPGA<T>)*NLAYERS);
         q.memset(d_seeds,0x00,sizeof(FPGA::VecArray<int, maxNSeeds>));
         q.memset(d_followers,0x00,sizeof(FPGA::VecArray<int, maxNFollowers>)*points_.n);
+        // new
         q.memset(d_parentA,0x00,sizeof(int)*points_.n);
         q.memset(d_parentB,0x00,sizeof(int)*points_.n);
-        //new
-        q.memset(d_clusterIndex2, 0xff, sizeof(int) * points_.n);
-
+        q.memset(d_histIterDebug,0xFF,sizeof(int)*points_.n);
     }
     void copy_tohost() {
     q.submit([&](sycl::handler &h) {
@@ -188,6 +187,7 @@ template<typename T, int NLAYERS>
 void kernel_compute_histogram(sycl::queue &q,
                              TilesFPGA<T> *d_hist,
                              const PointsPtr d_points,
+                             int *d_histIterDebug,
                              int numberOfPoints){
     q.submit([&](sycl::handler &h){
         h.single_task<ComputeHistogram>([=]() [[intel::kernel_args_restrict]]{
@@ -198,28 +198,29 @@ void kernel_compute_histogram(sycl::queue &q,
             sycl::ext::intel::device_ptr<float> x_d(d_points.x);
             sycl::ext::intel::device_ptr<float> y_d(d_points.y);
             sycl::ext::intel::device_ptr<int> layer_d(d_points.layer);
+            sycl::ext::intel::device_ptr<int> histIterDebug_d(d_histIterDebug);
 
         //     // [[intel::ivdep]]
-
+            
         // One cache entry per (layer, tile) pair so counts stay independent across layers.
         fpga_tools::OnchipMemoryWithCache<
                     int,
                     NLAYERS * T::nTiles,
                     15
                 > tileSizes(0);
-
-            // 	Memory dependency
-            // [[intel::ivdep]]
+            [[intel::ivdep]]
             for(int i = 0 ; i < numberOfPoints ; ++i){
+                histIterDebug_d[i] = i;
                 int layeri = layer_d[i];
-                int tileIndex = hist_d[layeri].getGlobalBin(x_d[i], y_d[i]);           
+                int tileIndex = hist_d[layeri].getGlobalBin(x_d[i], y_d[i]);
                 int combinedIndex = layeri * T::nTiles + tileIndex;
-                int count = tileSizes.read(combinedIndex);            
+                int count = tileSizes.read(combinedIndex);
                 if (count < T::maxTileDepth) {
                     hist_d[layeri].fill(i, tileIndex, count);
                     count++;
-                    tileSizes.write(combinedIndex, count);   
+                    tileSizes.write(combinedIndex, count);
                 }
+
             }
             for(int layeri = 0 ; layeri < NLAYERS ; ++layeri){
                 for(int tilei = 0 ; tilei < T::nTiles ; ++tilei){
@@ -229,7 +230,6 @@ void kernel_compute_histogram(sycl::queue &q,
         });
     });
 }
-
 template<typename T>
 void kernel_calculate_density(sycl::queue &q,
                               TilesFPGA<T> *d_hist,
@@ -373,7 +373,6 @@ void kernel_find_clusters(sycl::queue &q,
                           float dc,
                           float rhoc,
                           int *d_parentA,
-                          int *d_clusterIndex2,
                           int numberOfPoints){
     q.submit([&](sycl::handler &h){
         // FPGA::VecArray<int,maxNSeeds>* seeds_d = d_seeds;
@@ -385,7 +384,7 @@ void kernel_find_clusters(sycl::queue &q,
         uint8_t* isSeedPtr = d_points.isSeed ;
         h.single_task<FindClusters>([=]() [[intel::kernel_args_restrict]]{
             int seeds_size = 0 ; //# of seeds so far & clusterID for next seed
-            //int follower_counters[1000000] = {};
+            int follower_counters[1000000] = {};
             sycl::ext::intel::device_ptr<FPGA::VecArray<int,maxNSeeds>> seeds_d(d_seeds);
             sycl::ext::intel::device_ptr<FPGA::VecArray<int,maxNFollowers>> followers_d(d_followers);
             sycl::ext::intel::device_ptr<int> clusterIndex_d(clusterIndexPtr);
@@ -394,7 +393,6 @@ void kernel_find_clusters(sycl::queue &q,
             sycl::ext::intel::device_ptr<int> nearestHigher_d(nearestHigherPtr);
             sycl::ext::intel::device_ptr<uint8_t> isSeed_d(isSeedPtr);
             sycl::ext::intel::device_ptr<int> parentA_d(d_parentA);
-            sycl::ext::intel::device_ptr<int> clusterIndex2_d(d_clusterIndex2);
             for(int i = 0 ; i < numberOfPoints ; ++i){
                 // determine seed or outlier
                 float deltai = delta_d[i];
@@ -405,9 +403,6 @@ void kernel_find_clusters(sycl::queue &q,
                 if (isSeed){
                     isSeed_d[i] = 1;
                     clusterIndex_d[i] = seeds_size;
-                    ///new
-                    clusterIndex2_d[i] = seeds_size;
-                    ///
                     parentA_d[i] = i; // seed points are their own parent
                     seeds_d[0].push_back(i,seeds_size);
                     ++seeds_size; // next clusterID
@@ -415,12 +410,10 @@ void kernel_find_clusters(sycl::queue &q,
                 else if(!isOutlier){
                     parentA_d[i] = nh_index; // parent is nearest higher
                     clusterIndex_d[i] = -1;
-                    clusterIndex2_d[i] = -1;
                 }
                 else{
                     parentA_d[i] = i; // outliers have no parent but put i so it's a safe jump
                     clusterIndex_d[i] = -1;
-                    clusterIndex2_d[i] = -1;
                     // if(!isOutlier){
                     //     // assert(d_points.nearestHigher[i] < numberOfPoints);\
                     //     // register as follower at its nearest higher
@@ -444,7 +437,6 @@ void kernel_find_clusters(sycl::queue &q,
 void kernel_assign_cluster_buffer(sycl::queue &q,
                                     int* d_parentA,
                                     int* d_parentB,
-                                    int* d_clusterIndex2,
                                     PointsPtr d_points,
                                     int numberOfPoints) {
     q.submit([&](sycl::handler &h) {
@@ -453,10 +445,12 @@ void kernel_assign_cluster_buffer(sycl::queue &q,
                 sycl::ext::intel::device_ptr<int>clusterIndex_d(clusterIndexPtr);
                 sycl::ext::intel::device_ptr<int>parentA_d(d_parentA);
                 sycl::ext::intel::device_ptr<int>parentB_d(d_parentB);
-                sycl::ext::intel::device_ptr<int> clusterIndex2_d(d_clusterIndex2);
                 bool resultA = true;
-                for (int i = 0; i < maxPointerJumps; ++i) {
-                    bool changed = false;
+                int seed;
+                 bool changed = true;
+                 int i = 0; 
+                while (changed) {
+                    changed = false;
                     if (i % 2 == 0) {
                         for (int j = 0; j < numberOfPoints; ++j) {
                             int parent = parentA_d[j];
@@ -477,96 +471,219 @@ void kernel_assign_cluster_buffer(sycl::queue &q,
                         }
                         resultA = true;
                     }
-                    if (!changed) {
-                        break;
-                    }
+                    i++;
                 }
-                // Memory Dependency removed by using clusterIndex2_d
-                // previously it was clusterIndex_d[k] = clusterIndex_d[seed]
-                for (int k = 0; k < numberOfPoints; ++k) {
-                    int seed;
-                    if (resultA) {
+                
+                if (resultA)
+                {
+                    [[intel::ivdep]]
+                    for (int k = 0; k < numberOfPoints; ++k) {
                         seed = parentA_d[k];
+                        clusterIndex_d[k] = clusterIndex_d[seed];
                     }
-                    else {
+
+                }
+                else
+                {
+                    [[intel::ivdep]]
+                    for (int k = 0; k < numberOfPoints; ++k) {
                         seed = parentB_d[k];
+                        clusterIndex_d[k] = clusterIndex_d[seed];
                     }
-                    clusterIndex_d[k] = clusterIndex2_d[seed]; //updated
                 }
             });
     });
 }
 
+
+// template<typename T, int NLAYERS>
+// void CLUEAlgoFPGA<T,NLAYERS>::makeClusters(){
+//     copy_todevice();
+//     clear_internal_buffers();
+//     q.wait();
+//     auto start = std::chrono::high_resolution_clock::now();
+//     kernel_compute_histogram<T,NLAYERS>(q,d_hist,d_points,points_.n);
+//     q.wait();
+//     auto finish = std::chrono::high_resolution_clock::now();
+//     std::chrono::duration<double> elapsed = finish - start;
+//     std::cout << "Compute Histogram ";
+//     std::cout << " | Elapsed time: " << elapsed.count() * 1000 << " ms\n";
+//      start = std::chrono::high_resolution_clock::now();
+//     kernel_calculate_density(q,d_hist,d_points,dc_,points_.n);
+//     q.wait();
+//     finish = std::chrono::high_resolution_clock::now();
+//      elapsed = finish - start;
+//     std::cout << "Calculate Density " ;
+//     std::cout << " | Elapsed time: " << elapsed.count() * 1000 << " ms\n";
+//     kernel_calculate_distanceToHigher(q,d_hist,d_points,outlierDeltaFactor_,dc_,points_.n);
+//     q.wait();
+//      start = std::chrono::high_resolution_clock::now();
+//     // // if(!useAbsoluteSigma_){
+//     kernel_find_clusters(q,d_seeds,d_followers,d_points,outlierDeltaFactor_,dc_,rhoc_,d_parentA,points_.n);
+//     // // }
+//     // // else{
+//         // kernel_find_clusters_kappa(q,d_seeds,d_followers,d_points,outlierDeltaFactor_,kappa_,rhoc_,points_.n);
+//     // // }
+//     q.wait();
+//     finish = std::chrono::high_resolution_clock::now();
+//     elapsed = finish - start;
+//     std::cout << "Find Clusters " ;
+//     std::cout << " | Elapsed time: " << elapsed.count() * 1000 << " ms\n";
+//     start = std::chrono::high_resolution_clock::now();
+//     //kernel_assign_clusters(q,d_seeds,d_followers,d_points,points_.n);
+//     //kernel_assign_cluster_buffer(q, d_parentA, d_parentB, d_points, points_.n);
+//     //q.wait();
+//     finish = std::chrono::high_resolution_clock::now();
+//     elapsed = finish - start;
+//     std::cout << "Assign Clusters " ;
+//     std::cout << " | Elapsed time: " << elapsed.count() * 1000 << " ms\n";
+//     copy_tohost();
+//     q.wait();
+// }
+
 template<typename T, int NLAYERS>
 void CLUEAlgoFPGA<T,NLAYERS>::makeClusters(){
+        std::cout << "[CLUEAlgoFPGA::makeClusters] Start, nPoints=" << points_.n
+                            << std::endl;
 
-    auto start = std::chrono::high_resolution_clock::now();
-    auto done = start;
-    std::chrono::duration<double> elapsed;
-
-    std::cout << "START copy_todevice()...\n";
+        auto stage_start = std::chrono::high_resolution_clock::now();
     copy_todevice();
-    q.wait();
-    std::cout << "DONE copy_todevice()\n";
+        q.wait();
+        auto stage_finish = std::chrono::high_resolution_clock::now();
+        std::cout << "[CLUEAlgoFPGA::makeClusters] copy_todevice: "
+                            << std::chrono::duration<double, std::milli>(stage_finish - stage_start).count()
+                            << " ms" << std::endl;
 
-    std::cout << "START clear_internal_buffers()...\n";
+        stage_start = std::chrono::high_resolution_clock::now();
     clear_internal_buffers();
     q.wait();
-    std::cout << "DONE clear_internal_buffers()\n";
+        stage_finish = std::chrono::high_resolution_clock::now();
+        std::cout << "[CLUEAlgoFPGA::makeClusters] clear_internal_buffers: "
+                            << std::chrono::duration<double, std::milli>(stage_finish - stage_start).count()
+                            << " ms" << std::endl;
 
-    start = std::chrono::high_resolution_clock::now();
-    std::cout << "START kernel_compute_histogram()...\n";
-    // kernel_compute_histogram<T,NLAYERS>(q,d_hist,d_points,points_.n);
-    kernel_compute_histogram<T,NLAYERS>(q,d_hist,d_points,1);
+        stage_start = std::chrono::high_resolution_clock::now();
+    std::cout << "Start of Compute Histogram" << std::endl;
+    kernel_compute_histogram<T,NLAYERS>(q,d_hist,d_points,d_histIterDebug,points_.n);
     q.wait();
-    done = std::chrono::high_resolution_clock::now();
-    elapsed = done - start;
-    std::cout << "DONE kernel_compute_histogram()\n:" << elapsed.count() << " s\n";
+        stage_finish = std::chrono::high_resolution_clock::now();
+        std::cout << "[CLUEAlgoFPGA::makeClusters] kernel_compute_histogram: "
+                            << std::chrono::duration<double, std::milli>(stage_finish - stage_start).count()
+                            << " ms" << std::endl;
+        {
+            std::vector<int> histIterDebugHost(points_.n, -1);
+            q.memcpy(histIterDebugHost.data(), d_histIterDebug,
+                     sizeof(int) * points_.n);
+            q.wait();
+            std::cout << "[CLUEAlgoFPGA::makeClusters] kernel_compute_histogram iteration starts:" << std::endl;
+            for (int i = 0; i < points_.n; ++i) {
+                std::cout << "  [kernel_compute_histogram] iteration start i="
+                          << histIterDebugHost[i] << std::endl;
+            }
+        }
 
-    start = std::chrono::high_resolution_clock::now();
-    std::cout << "START kernel_calculate_density()...\n";
-    // kernel_calculate_density(q,d_hist,d_points,dc_,points_.n);
-    kernel_calculate_density(q,d_hist,d_points,dc_,1);
+        stage_start = std::chrono::high_resolution_clock::now();
+    std::cout << "Start of Calculate Density" << std::endl;
+    kernel_calculate_density(q,d_hist,d_points,dc_,points_.n);
     q.wait();
-    done = std::chrono::high_resolution_clock::now();
-    elapsed = done - start;
-    std::cout << "DONE kernel_calculate_density()\n:" << elapsed.count() << " s\n";
+        stage_finish = std::chrono::high_resolution_clock::now();
+        std::cout << "[CLUEAlgoFPGA::makeClusters] kernel_calculate_density: "
+                            << std::chrono::duration<double, std::milli>(stage_finish - stage_start).count()
+                            << " ms" << std::endl;
 
-    start = std::chrono::high_resolution_clock::now();
-    std::cout << "START kernel_calculate_distanceToHigher()...\n";
-    // kernel_calculate_distanceToHigher(q,d_hist,d_points,outlierDeltaFactor_,dc_,points_.n);
-    kernel_calculate_distanceToHigher(q,d_hist,d_points,outlierDeltaFactor_,dc_,1);
+        stage_start = std::chrono::high_resolution_clock::now();
+    std::cout << "Start of Calculate Distance to Higher" << std::endl;
+    kernel_calculate_distanceToHigher(q,d_hist,d_points,outlierDeltaFactor_,dc_,points_.n);
     q.wait();
-    done = std::chrono::high_resolution_clock::now();
-    elapsed = done - start;
-    std::cout << "DONE kernel_calculate_distanceToHigher()\n:" << elapsed.count() << " s\n";
+        stage_finish = std::chrono::high_resolution_clock::now();
+        std::cout << "[CLUEAlgoFPGA::makeClusters] kernel_calculate_distanceToHigher: "
+                            << std::chrono::duration<double, std::milli>(stage_finish - stage_start).count()
+                            << " ms" << std::endl;
 
+        stage_start = std::chrono::high_resolution_clock::now();
     // // if(!useAbsoluteSigma_){
-    start = std::chrono::high_resolution_clock::now();
-    std::cout << "START kernel_find_clusters()...\n";
-    // kernel_find_clusters(q,d_seeds,d_followers,d_points,outlierDeltaFactor_,dc_,rhoc_, d_parentA, points_.n);
-    kernel_find_clusters(q,d_seeds,d_followers,d_points,outlierDeltaFactor_,dc_,rhoc_, d_parentA, d_clusterIndex2, 1);
+    std::cout << "Start of Find Clusters" << std::endl;
+    kernel_find_clusters(q,d_seeds,d_followers,d_points,outlierDeltaFactor_,dc_,rhoc_, d_parentA, points_.n);
     // // }
     // // else{
         // kernel_find_clusters_kappa(q,d_seeds,d_followers,d_points,outlierDeltaFactor_,kappa_,rhoc_,points_.n);
     // // }
     q.wait();
-    done = std::chrono::high_resolution_clock::now();
-    elapsed = done - start;
-    std::cout << "DONE kernel_find_clusters()\n:" << elapsed.count() << " s\n";
+        stage_finish = std::chrono::high_resolution_clock::now();
+        std::cout << "[CLUEAlgoFPGA::makeClusters] kernel_find_clusters: "
+                            << std::chrono::duration<double, std::milli>(stage_finish - stage_start).count()
+                            << " ms" << std::endl;
+
+        stage_start = std::chrono::high_resolution_clock::now();
+    std::cout << "Start of Assigning Clusters with buffers" << std::endl;
     //kernel_assign_clusters(q,d_seeds,d_followers,d_points,points_.n);
-
-    start = std::chrono::high_resolution_clock::now();
-    std::cout << "START kernel_assign_cluster_buffer()...\n";
-    // kernel_assign_cluster_buffer(q, d_parentA, d_parentB, d_points, points_.n);
-    kernel_assign_cluster_buffer(q, d_parentA, d_parentB, d_clusterIndex2, d_points, 1);
+    kernel_assign_cluster_buffer(q, d_parentA, d_parentB, d_points, points_.n);
     q.wait();
-    done = std::chrono::high_resolution_clock::now();
-    elapsed = done - start;
-    std::cout << "DONE kernel_assign_cluster_buffer()\n:" << elapsed.count() << " s\n";
+        stage_finish = std::chrono::high_resolution_clock::now();
+        std::cout << "[CLUEAlgoFPGA::makeClusters] kernel_assign_cluster_buffer: "
+                            << std::chrono::duration<double, std::milli>(stage_finish - stage_start).count()
+                            << " ms" << std::endl;
 
-    std::cout << "START copy_tohost()...\n";
+        stage_start = std::chrono::high_resolution_clock::now();
     copy_tohost();
     q.wait();
-    std::cout << "DONE copy_tohost()\n";
+        stage_finish = std::chrono::high_resolution_clock::now();
+        std::cout << "[CLUEAlgoFPGA::makeClusters] copy_tohost: "
+                            << std::chrono::duration<double, std::milli>(stage_finish - stage_start).count()
+                            << " ms" << std::endl;
+
+        int nSeeds = 0;
+        int nOutliers = 0;
+        int nUnassigned = 0;
+        std::unordered_map<int, int> clusterSizes;
+        clusterSizes.reserve(points_.n);
+
+        for (int i = 0; i < points_.n; ++i) {
+            if (points_.isSeed[i]) {
+                ++nSeeds;
+            }
+            const int cid = points_.clusterIndex[i];
+            if (cid >= 0) {
+                ++clusterSizes[cid];
+            } else if (cid == -1) {
+                ++nOutliers;
+            } else {
+                ++nUnassigned;
+            }
+        }
+
+        std::vector<std::pair<int, int>> rankedClusters(clusterSizes.begin(),
+                                                                                                        clusterSizes.end());
+        std::sort(rankedClusters.begin(), rankedClusters.end(),
+                            [](const std::pair<int, int>& a, const std::pair<int, int>& b) {
+                                if (a.second != b.second) {
+                                    return a.second > b.second;
+                                }
+                                return a.first < b.first;
+                            });
+
+        std::cout << "[CLUEAlgoFPGA::makeClusters] Cluster summary: nClusters="
+                            << rankedClusters.size() << " nSeeds=" << nSeeds
+                            << " outliers(clusterIndex=-1)=" << nOutliers
+                            << " unassigned(other negative)=" << nUnassigned << std::endl;
+
+        if (!rankedClusters.empty()) {
+            std::cout << "[CLUEAlgoFPGA::makeClusters] Largest cluster: id="
+                                << rankedClusters[0].first
+                                << " size=" << rankedClusters[0].second << std::endl;
+
+            const size_t kTopK = 5;
+            const size_t topK = std::min(kTopK, rankedClusters.size());
+            std::cout << "[CLUEAlgoFPGA::makeClusters] Top " << topK
+                                << " cluster sizes (id:size): ";
+            for (size_t i = 0; i < topK; ++i) {
+                std::cout << rankedClusters[i].first << ":" << rankedClusters[i].second;
+                if (i + 1 < topK) {
+                    std::cout << ", ";
+                }
+            }
+            std::cout << std::endl;
+        }
+
+        std::cout << "[CLUEAlgoFPGA::makeClusters] End" << std::endl;
 }
