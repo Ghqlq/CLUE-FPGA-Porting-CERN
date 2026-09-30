@@ -475,51 +475,6 @@ void kernel_assign_cluster_buffer(sycl::queue &q,
 }
 
 
-// template<typename T, int NLAYERS>
-// void CLUEAlgoFPGA<T,NLAYERS>::makeClusters(){
-//     copy_todevice();
-//     clear_internal_buffers();
-//     q.wait();
-//     auto start = std::chrono::high_resolution_clock::now();
-//     kernel_compute_histogram<T,NLAYERS>(q,d_hist,d_points,points_.n);
-//     q.wait();
-//     auto finish = std::chrono::high_resolution_clock::now();
-//     std::chrono::duration<double> elapsed = finish - start;
-//     std::cout << "Compute Histogram ";
-//     std::cout << " | Elapsed time: " << elapsed.count() * 1000 << " ms\n";
-//      start = std::chrono::high_resolution_clock::now();
-//     kernel_calculate_density(q,d_hist,d_points,dc_,points_.n);
-//     q.wait();
-//     finish = std::chrono::high_resolution_clock::now();
-//      elapsed = finish - start;
-//     std::cout << "Calculate Density " ;
-//     std::cout << " | Elapsed time: " << elapsed.count() * 1000 << " ms\n";
-//     kernel_calculate_distanceToHigher(q,d_hist,d_points,outlierDeltaFactor_,dc_,points_.n);
-//     q.wait();
-//      start = std::chrono::high_resolution_clock::now();
-//     // // if(!useAbsoluteSigma_){
-//     kernel_find_clusters(q,d_seeds,d_followers,d_points,outlierDeltaFactor_,dc_,rhoc_,d_parentA,points_.n);
-//     // // }
-//     // // else{
-//         // kernel_find_clusters_kappa(q,d_seeds,d_followers,d_points,outlierDeltaFactor_,kappa_,rhoc_,points_.n);
-//     // // }
-//     q.wait();
-//     finish = std::chrono::high_resolution_clock::now();
-//     elapsed = finish - start;
-//     std::cout << "Find Clusters " ;
-//     std::cout << " | Elapsed time: " << elapsed.count() * 1000 << " ms\n";
-//     start = std::chrono::high_resolution_clock::now();
-//     //kernel_assign_clusters(q,d_seeds,d_followers,d_points,points_.n);
-//     //kernel_assign_cluster_buffer(q, d_parentA, d_parentB, d_points, points_.n);
-//     //q.wait();
-//     finish = std::chrono::high_resolution_clock::now();
-//     elapsed = finish - start;
-//     std::cout << "Assign Clusters " ;
-//     std::cout << " | Elapsed time: " << elapsed.count() * 1000 << " ms\n";
-//     copy_tohost();
-//     q.wait();
-// }
-
 template<typename T, int NLAYERS>
 void CLUEAlgoFPGA<T,NLAYERS>::makeClusters(){
 
